@@ -1,0 +1,1188 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3675160b-d9e5-490e-b506-2a7966e79ed0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 187.96 67.31) (xy 193.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c180da-f1d6-4cdd-98cc-f9dc9078cbf4")
+	)
+	(wire
+		(pts
+			(xy 187.96 76.2) (xy 193.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9072a9-7277-4a68-b0c0-c242db81e634")
+	)
+	(wire
+		(pts
+			(xy 158.75 60.96) (xy 161.29 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33553273-b2c9-4119-97b1-4daee56004d4")
+	)
+	(wire
+		(pts
+			(xy 158.75 78.74) (xy 161.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7d4198-c4f6-4ca9-bee3-48cb31ca18ac")
+	)
+	(wire
+		(pts
+			(xy 158.75 81.28) (xy 161.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88dc1b75-d0c1-4684-a476-909aa05fd2f6")
+	)
+	(wire
+		(pts
+			(xy 187.96 73.66) (xy 193.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e51194-184d-4ddf-b1f7-d62eb99f0d86")
+	)
+	(wire
+		(pts
+			(xy 187.96 64.77) (xy 193.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3605ff-0413-4abc-9bda-93411445c698")
+	)
+	(wire
+		(pts
+			(xy 158.75 66.04) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2dd70e3-5cdb-451b-b597-186d7777f86b")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 158.75 191.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21914aa7-81e0-4b1c-a1f1-499e449b57ac")
+		(property "Reference" "H3"
+			(at 161.29 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 161.29 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 158.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 158.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "squeezeampesppi"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 158.75 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d007f16-237d-4821-b1c9-39196f932698")
+		(property "Reference" "H1"
+			(at 161.29 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 161.29 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "squeezeampesppi"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 158.75 196.85 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aa21fa0-5312-4ba6-88cd-cdf654b9b62f")
+		(property "Reference" "H4"
+			(at 161.29 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 161.29 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 158.75 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 158.75 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "squeezeampesppi"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 158.75 186.69 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c451cbe6-916f-41fb-afad-72ac152b97c6")
+		(property "Reference" "H2"
+			(at 161.29 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 161.29 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 158.75 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 158.75 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "squeezeampesppi"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 58.42)
+		(size 26.67 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07ac3e8e-f1ad-466e-8093-0e429e520f15")
+		(property "Sheetname" "Amp"
+			(at 161.29 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amp.kicad_sch"
+			(at 161.29 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{SPK_MUTE}" input
+			(at 161.29 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc7561b2-0cc6-4ed3-9aa3-b14af9404c11")
+		)
+		(pin "~{SPK_FAULT}" output
+			(at 161.29 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9ec696a-3749-46c2-9709-759ed449fb92")
+		)
+		(pin "SDIN" input
+			(at 161.29 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bb7c8d53-685e-4302-bfa9-d240ce1766b6")
+		)
+		(pin "SCLK" bidirectional
+			(at 161.29 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7799ba3-cd0c-4bab-8e32-2daa2ad8d3df")
+		)
+		(pin "MCLK" input
+			(at 161.29 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "773358d7-a5cc-4b42-977a-1ee89e4ab698")
+		)
+		(pin "LRCLK{slash}FS" bidirectional
+			(at 161.29 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac1979ea-d66d-49ee-bc3e-edea56cd002e")
+		)
+		(pin "SPK_A-" output
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bbcd18d7-b9d7-4b74-9253-c3b6b532045e")
+		)
+		(pin "SPK_A+" output
+			(at 187.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed22c539-b6d1-4968-93c2-b3efb81ce08e")
+		)
+		(pin "SPK_B+" output
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5372699e-ec30-4baa-a257-209a99c1e6ae")
+		)
+		(pin "SPK_B-" output
+			(at 187.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a2ae2f3d-bacb-4e5d-a7d4-a11239e4fc59")
+		)
+		(pin "SCL" input
+			(at 161.29 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8fb6cbf7-af2d-49b7-8e13-50df6ac5d891")
+		)
+		(pin "SDA" bidirectional
+			(at 161.29 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "645e04a9-19c8-40bf-81a3-5d832a66aefd")
+		)
+		(pin "GPIO0" bidirectional
+			(at 161.29 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c0398780-bb3b-422a-aca0-3f6762e78f21")
+		)
+		(pin "GPIO1" bidirectional
+			(at 161.29 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "490cadad-cd92-4986-b4bb-5aa60973a015")
+		)
+		(pin "GPIO2" bidirectional
+			(at 161.29 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "44af759a-1334-4ead-9673-ab933e634853")
+		)
+		(instances
+			(project "squeezeampesppi"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 21.59)
+		(size 13.97 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f57a469-41de-4f06-810e-cfdb6f5b9e50")
+		(property "Sheetname" "Power"
+			(at 128.27 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 128.27 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "squeezeampesppi"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 139.7)
+		(size 24.13 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26fa6d25-f20f-4499-8e61-2f475408dc13")
+		(property "Sheetname" "Pi"
+			(at 123.19 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pi.kicad_sch"
+			(at 123.19 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "squeezeampesppi"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 58.42)
+		(size 17.78 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40e991d7-be56-488e-9fc7-d720bf03f7b1")
+		(property "Sheetname" "SpkConn"
+			(at 193.04 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "spkconn.kicad_sch"
+			(at 193.04 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "B+" input
+			(at 193.04 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "90925682-9002-4d9a-9bdf-a5202049588f")
+		)
+		(pin "B-" input
+			(at 193.04 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d37c02d2-19c6-45b0-9ccc-4b613b51b9af")
+		)
+		(pin "A+" input
+			(at 193.04 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59baf423-f706-4ada-b318-670de7b82c09")
+		)
+		(pin "A-" input
+			(at 193.04 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5bd9491-bc64-42b5-bd54-7caf38454837")
+		)
+		(instances
+			(project "squeezeampesppi"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 58.42)
+		(size 29.21 74.93)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7add08aa-332a-4b28-a3d6-ce8f466a0a0b")
+		(property "Sheetname" "esp"
+			(at 129.54 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp.kicad_sch"
+			(at 129.54 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN{slash}~{RESET}" input
+			(at 129.54 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff66ac69-8ca9-4a61-83c5-f7d730290cf9")
+		)
+		(pin "I2S-SD" output
+			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e526b48-9325-4088-acc6-81d6e5d56064")
+		)
+		(pin "MUTE" output
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5f817cbc-ed4e-4250-81ff-47820996c678")
+		)
+		(pin "I2S-CLK" bidirectional
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1854f191-cd44-4579-9e89-02571f7a341a")
+		)
+		(pin "IO34" tri_state
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb43da0d-8194-45ea-ac89-bea569ec0398")
+		)
+		(pin "IO35" tri_state
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ba11c997-52b2-4e01-a25e-93b15367a867")
+		)
+		(pin "SPDIF_OUT" tri_state
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "418bc650-892d-4577-88c4-10b2c8bdbe0a")
+		)
+		(pin "IO39" input
+			(at 158.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "594dc9ad-2093-4f65-bc03-4c8b4db71336")
+		)
+		(pin "IO36" input
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ee40d187-81c9-473f-be80-869aa11ba396")
+		)
+		(pin "I2S-WS" bidirectional
+			(at 158.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49771de2-d2f4-40c2-80ce-678df82c60b6")
+		)
+		(pin "VSPID" output
+			(at 129.54 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3d7b64b-9362-4cc2-b3c4-1feb8d12cd9a")
+		)
+		(pin "IO22" tri_state
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26c98c20-bfc9-4267-9192-5259307dccb5")
+		)
+		(pin "SCL" output
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9fb42b75-78f5-417d-a555-d4d323237d0c")
+		)
+		(pin "D{slash}C" output
+			(at 129.54 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b871b1e-f6c5-41c3-bb65-842ccf8823e1")
+		)
+		(pin "VSPICS0" output
+			(at 129.54 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d29862aa-69b9-4bae-a735-ac41c11fc13d")
+		)
+		(pin "IO2" output
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "09f905e7-e7cf-45f6-9705-1111c94114ac")
+		)
+		(pin "VSPIQ" input
+			(at 129.54 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2cc6b653-a105-4636-b69f-2ae40db655cb")
+		)
+		(pin "VSPICLK" output
+			(at 129.54 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d011db8b-e386-49df-a474-13bc2b72d190")
+		)
+		(pin "SDA" bidirectional
+			(at 158.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6da5d6f-4c38-4850-a39b-dfa1837ffdd0")
+		)
+		(pin "GPIO0{slash}BOOT" input
+			(at 129.54 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7bd7b73d-f186-4022-b374-688d005920ef")
+		)
+		(pin "IO4" output
+			(at 129.54 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f160b78a-63be-48aa-947c-ccc228661b1b")
+		)
+		(pin "RX" input
+			(at 129.54 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a952500-c57d-43f4-927a-a87581d922a2")
+		)
+		(pin "TX" output
+			(at 129.54 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3dc099d6-59cf-486d-afe7-c1df921c8e98")
+		)
+		(instances
+			(project "squeezeampesppi"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 111.76)
+		(size 26.67 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8aa0c29-7d4a-4486-816f-de6795c685f9")
+		(property "Sheetname" "Pico"
+			(at 26.67 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pico.kicad_sch"
+			(at 26.67 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "squeezeampesppi"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 74.93)
+		(size 12.7 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee00a6dc-f977-4055-96a4-c54a9ac88e93")
+		(property "Sheetname" "DisplayConnector"
+			(at 106.68 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 106.68 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MISO" output
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c881f987-b926-405f-b500-309352f9eae9")
+		)
+		(pin "MOSI" input
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4595b59e-8bcf-4d82-9d9e-f688411d1804")
+		)
+		(pin "SCK" input
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1129db6f-41dd-4bea-a9a2-01f6beec2f1c")
+		)
+		(pin "D{slash}C" input
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8615dcb2-4c33-42c7-8c28-1e08f738d107")
+		)
+		(pin "CS" input
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0e904d56-859e-4b8a-9de0-79c6a4584dc9")
+		)
+		(pin "RESET" input
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "09d1978d-9384-4047-8576-ca340fe9e533")
+		)
+		(pin "LED" input
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3803dccf-afb1-4e45-8390-57edb98a3eb5")
+		)
+		(instances
+			(project "squeezeampesppi"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
