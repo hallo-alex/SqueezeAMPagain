@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "7c3a93f4-3029-4c14-b0e8-ad1e05146103")
 	(paper "A4")
+	(title_block
+		(title "Speaker output single channel")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -420,10 +423,28 @@
 		)
 	)
 	(junction
+		(at 163.83 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10a23e0a-dd23-44ce-8ec6-2a7c7a602767")
+	)
+	(junction
 		(at 163.83 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18df0dec-0d6c-4156-bc61-2cb3b63dcac3")
+	)
+	(junction
+		(at 138.43 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76d29432-b90d-46fc-8a4d-238efafd766d")
+	)
+	(junction
+		(at 152.4 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a76a3a3e-05cd-471b-a7b4-85a37685df48")
 	)
 	(junction
 		(at 99.06 68.58)
@@ -431,9 +452,15 @@
 		(color 0 0 0 0)
 		(uuid "b9907eb1-b2ea-44ee-bb5e-013c5102c98b")
 	)
+	(junction
+		(at 152.4 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1aea6b2-1382-42c0-afcf-ab47b5f6c640")
+	)
 	(wire
 		(pts
-			(xy 99.06 68.58) (xy 143.51 68.58)
+			(xy 99.06 68.58) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -443,13 +470,43 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 68.58) (xy 163.83 68.58)
+			(xy 152.4 68.58) (xy 163.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21705bac-8ea1-4a59-9b5d-7744a7a95200")
+	)
+	(wire
+		(pts
+			(xy 138.43 85.09) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47362f13-4b25-43fc-a895-cf51e023a56e")
+	)
+	(wire
+		(pts
+			(xy 116.84 68.58) (xy 138.43 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5888a4e8-ba4c-4cba-a43d-49a314c84f42")
+	)
+	(wire
+		(pts
+			(xy 138.43 68.58) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7735d508-77e9-4bff-b4a7-685573c456a3")
 	)
 	(wire
 		(pts
@@ -473,6 +530,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 82.55) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9347dbe4-fc63-4e56-9e74-e19dbe434780")
+	)
+	(wire
+		(pts
 			(xy 99.06 40.64) (xy 99.06 45.72)
 		)
 		(stroke
@@ -480,6 +547,36 @@
 			(type default)
 		)
 		(uuid "b537dd01-e29c-4501-b63a-a79f7f016f27")
+	)
+	(wire
+		(pts
+			(xy 152.4 85.09) (xy 163.83 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82ba50e-28ef-4724-8c7d-656a44eb0f60")
+	)
+	(wire
+		(pts
+			(xy 138.43 68.58) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf58bfc-ac87-4d19-bcec-9b353339d220")
+	)
+	(wire
+		(pts
+			(xy 152.4 82.55) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d655aa-5fcd-4197-97d3-fa1d7f4c731d")
 	)
 	(wire
 		(pts
@@ -493,6 +590,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 85.09) (xy 163.83 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3333fde-0447-4d1d-9b3c-6bc7d38663b8")
+	)
+	(wire
+		(pts
 			(xy 99.06 53.34) (xy 99.06 68.58)
 		)
 		(stroke
@@ -503,6 +610,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 82.55) (xy 163.83 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec15b319-14a0-48ed-953b-2147323d0896")
+	)
+	(wire
+		(pts
 			(xy 163.83 68.58) (xy 163.83 74.93)
 		)
 		(stroke
@@ -510,6 +627,35 @@
 			(type default)
 		)
 		(uuid "f6771914-d2cd-4883-909a-203b1e52b825")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 152.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc883f2c-8f42-4fd4-8201-12402ecdf6e2")
+	)
+	(text_box "Suitable inductors:\nd ≤ 12mm, Grid 5mm\n\n- WE 7447471047  <- shielded\n\n- Fastron 07HCP-4R7M-50 <- only 4A\n"
+		(exclude_from_sim yes)
+		(at 73.66 83.82 0)
+		(size 44.45 17.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "debd4ce2-473d-4729-af64-a3293355bceb")
 	)
 	(hierarchical_label "Amp_out"
 		(shape input)
@@ -549,6 +695,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 138.43 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a13d804-cca6-43bb-8cd2-5fae26c24a6c")
+		(property "Reference" "C69"
+			(at 142.24 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 142.24 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 139.3952 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba271231-f73d-4534-9b19-7edec2f815fe")
+		)
+		(pin "1"
+			(uuid "a8e8fba2-7419-49b2-848d-e35327864e45")
+		)
+		(instances
+			(project "SqueezeAMPagain"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
+					(reference "C69")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
+					(reference "C68")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
+					(reference "C67")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 99.06 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -557,7 +785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a6fb528-24f3-4c4d-8cbf-ac86b964f30b")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 102.87 48.2599 0)
 			(effects
 				(font
@@ -609,17 +837,17 @@
 			(uuid "121383e6-4bd7-442b-aae5-6f483acf8a08")
 		)
 		(instances
-			(project "squeezeampesppi"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
-					(reference "C4")
+			(project "SqueezeAMPagain"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
 					(reference "C6")
 					(unit 1)
 				)
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
-					(reference "C8")
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
+					(reference "C4")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
@@ -631,7 +859,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Iron")
-		(at 147.32 68.58 90)
+		(at 113.03 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -639,8 +867,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8641dcde-c4fa-4bce-9166-d6e76eae8801")
-		(property "Reference" "L2"
-			(at 147.32 62.23 90)
+		(property "Reference" "L4"
+			(at 113.03 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -648,15 +876,15 @@
 			)
 		)
 		(property "Value" "4.7uH/6.0A"
-			(at 147.32 64.77 90)
+			(at 113.03 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H3.5"
-			(at 147.32 68.58 0)
+		(property "Footprint" "Inductor:L_Radial_D12.0mm_P5+6+7.00mm_Fastron_11P"
+			(at 113.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -665,7 +893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 68.58 0)
+			(at 113.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,7 +902,16 @@
 			)
 		)
 		(property "Description" "Inductor with iron core"
-			(at 147.32 68.58 0)
+			(at 113.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr#" "7447471047"
+			(at 113.03 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,17 +926,17 @@
 			(uuid "11cad3ce-9578-4dd5-a2b3-e8e8070ff630")
 		)
 		(instances
-			(project "squeezeampesppi"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
-					(reference "L2")
+			(project "SqueezeAMPagain"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
+					(reference "L4")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
 					(reference "L3")
 					(unit 1)
 				)
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
-					(reference "L4")
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
+					(reference "L2")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
@@ -710,16 +947,115 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 163.83 82.55 0)
+		(lib_id "Device:C")
+		(at 152.4 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ae70170b-6cf6-4f86-9c25-2151cca451ed")
-		(property "Reference" "#PWR04"
+		(uuid "8e9ebb5a-a051-49b7-a653-3ff523f09c4e")
+		(property "Reference" "C65"
+			(at 156.21 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 156.21 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 153.3652 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc9f4599-ed93-4041-9f6d-f39454c7b4ef")
+		)
+		(pin "1"
+			(uuid "42df0b84-4455-4190-ae3f-525502ad2f4c")
+		)
+		(instances
+			(project "SqueezeAMPagain"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
+					(reference "C65")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
+					(reference "C64")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
+					(reference "C63")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 163.83 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a20cc3d8-5d73-4fde-b8ce-3ab7931e8e30")
+		(property "Reference" "#PWR091"
+			(at 163.83 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
 			(at 163.83 88.9 0)
 			(effects
 				(font
@@ -728,25 +1064,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 163.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Datasheet" ""
-			(at 163.83 82.55 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -755,7 +1074,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 163.83 82.55 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,24 +1083,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e70c4f3-fb0a-4a40-a75f-126775ba9f1a")
+			(uuid "16aae137-b82f-4a0f-844b-dbf03a686da9")
 		)
 		(instances
-			(project "squeezeampesppi"
+			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
-					(reference "#PWR04")
-					(unit 1)
-				)
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
-					(reference "#PWR01")
-					(unit 1)
-				)
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
-					(reference "#PWR02")
+					(reference "#PWR091")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
-					(reference "#PWR03")
+					(reference "#PWR090")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
+					(reference "#PWR089")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -797,7 +1116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff975667-85b6-42a9-9d4a-b058524a0d68")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 167.64 77.4699 0)
 			(effects
 				(font
@@ -806,7 +1125,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.68uF/50V"
+		(property "Value" "470n/50V"
 			(at 167.64 80.0099 0)
 			(effects
 				(font
@@ -815,7 +1134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 164.7952 82.55 0)
 			(effects
 				(font
@@ -849,17 +1168,17 @@
 			(uuid "ec6cfc3c-2ef4-4844-bf02-dccd2aa4a1cc")
 		)
 		(instances
-			(project "squeezeampesppi"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
-					(reference "C5")
+			(project "SqueezeAMPagain"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
+					(reference "C9")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
 					(reference "C7")
 					(unit 1)
 				)
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
-					(reference "C9")
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
+					(reference "C5")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"

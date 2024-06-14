@@ -1025,9 +1025,39 @@
 			)
 		)
 	)
-	(hierarchical_label "FS"
-		(shape input)
-		(at 57.15 82.55 0)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 106.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593d3994-393e-4674-91e4-f30a9f38e057")
+	)
+	(wire
+		(pts
+			(xy 115.57 74.93) (xy 106.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe24a43-1e49-4304-8038-719508c4a3cb")
+	)
+	(text "No MCLK on RPi "
+		(exclude_from_sim no)
+		(at 27.432 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c608d143-eb5d-4ef2-9a9b-6d2dcb2a2345")
+	)
+	(hierarchical_label "PWM"
+		(shape output)
+		(at 106.68 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1035,11 +1065,11 @@
 			)
 			(justify left)
 		)
-		(uuid "4a9ca536-9114-4de2-b20b-47f377d9e863")
+		(uuid "0d407c5c-a74f-4e6d-9bb9-4fe651d92641")
 	)
-	(hierarchical_label "sdout"
-		(shape input)
-		(at 57.15 87.63 180)
+	(hierarchical_label "LRCLK"
+		(shape output)
+		(at 66.04 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1047,23 +1077,47 @@
 			)
 			(justify right)
 		)
-		(uuid "900fe24b-9616-49b1-b333-9ed98b33edb0")
+		(uuid "120935c7-8c0b-4529-a454-68019862559b")
 	)
-	(hierarchical_label "SCLK"
-		(shape input)
-		(at 57.15 77.47 0)
+	(hierarchical_label "DATA"
+		(shape output)
+		(at 66.04 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "9eaeb5ef-7546-4bc8-b22e-693fc8c52bee")
+		(uuid "3679d041-b0aa-492b-a4ba-a1dd021b4e57")
+	)
+	(hierarchical_label "MCLK"
+		(shape output)
+		(at 34.29 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e7d0881-2b6f-4b8f-a332-17e786cc0b2a")
+	)
+	(hierarchical_label "BCLK"
+		(shape output)
+		(at 66.04 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a03d49c-18e6-4e25-b9a1-61f0876610b0")
 	)
 	(hierarchical_label "SCL"
-		(shape input)
-		(at 111.76 74.93 0)
+		(shape output)
+		(at 115.57 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1074,8 +1128,8 @@
 		(uuid "aff9ccdf-ec54-4bda-9792-41d3de2a30aa")
 	)
 	(hierarchical_label "SDA"
-		(shape input)
-		(at 111.76 72.39 0)
+		(shape bidirectional)
+		(at 114.3 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1143,7 +1197,7 @@
 			(uuid "a0e3c57a-a552-4456-8d19-b2d907d05ee7")
 		)
 		(instances
-			(project "squeezeampesppi"
+			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
 					(reference "#PWR07")
 					(unit 1)
@@ -1327,7 +1381,7 @@
 			(uuid "309fcdb3-e5a0-422b-9dab-cd71235f2061")
 		)
 		(instances
-			(project "squeezeampesppi"
+			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
 					(reference "J3")
 					(unit 1)
@@ -1393,7 +1447,7 @@
 			(uuid "3c0c3273-902b-410f-b343-01014478784d")
 		)
 		(instances
-			(project "squeezeampesppi"
+			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
 					(reference "#PWR06")
 					(unit 1)

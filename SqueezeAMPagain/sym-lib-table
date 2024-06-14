@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TAS5756")(type "KiCad")(uri "${KIPRJMOD}/TAS5756.kicad_sym")(options "")(descr ""))
+  (lib (name "pipico")(type "KiCad")(uri "/home/alex/workspaces/kicad/kicad-libs/RaspberryPi_Pico/MCU_Module_RaspberryPi_Pico.kicad_sym")(options "")(descr ""))
+  (lib (name "esp32")(type "KiCad")(uri "/home/alex/workspaces/kicad/kicad-libs/espressiv/symbols/Espressif.kicad_sym")(options "")(descr ""))
+)

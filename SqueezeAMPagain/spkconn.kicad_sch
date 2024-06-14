@@ -314,7 +314,7 @@
 			(uuid "78128c30-f8a2-4933-94c6-08deef262dc3")
 		)
 		(instances
-			(project "squeezeampesppi"
+			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/40e991d7-be56-488e-9fc7-d720bf03f7b1"
 					(reference "J2")
 					(unit 1)
@@ -382,7 +382,7 @@
 			(uuid "6821952c-e7c1-4087-b2a5-f7ff251c355f")
 		)
 		(instances
-			(project "squeezeampesppi"
+			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/40e991d7-be56-488e-9fc7-d720bf03f7b1"
 					(reference "J1")
 					(unit 1)
