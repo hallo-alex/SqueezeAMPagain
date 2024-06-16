@@ -695,6 +695,97 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 99.06 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40dd0827-dff9-46a4-a2ed-f39f833a1be7")
+		(property "Reference" "C75"
+			(at 102.87 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220n"
+			(at 102.87 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 100.0252 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C5378"
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8426b676-8d8a-41b2-85a4-aeb6be2bd4c3")
+		)
+		(pin "1"
+			(uuid "57bc620f-3408-4cd4-a63b-034758865104")
+		)
+		(instances
+			(project "SqueezeAMPagain"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
+					(reference "C75")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
+					(reference "C74")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
+					(reference "C73")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 138.43 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -770,88 +861,6 @@
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
 					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a6fb528-24f3-4c4d-8cbf-ac86b964f30b")
-		(property "Reference" "C8"
-			(at 102.87 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.22uF/50V"
-			(at 102.87 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 100.0252 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "46ac57da-7a23-436d-903c-789da5d629b4")
-		)
-		(pin "1"
-			(uuid "121383e6-4bd7-442b-aae5-6f483acf8a08")
-		)
-		(instances
-			(project "SqueezeAMPagain"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
-					(reference "C8")
-					(unit 1)
-				)
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
-					(reference "C6")
-					(unit 1)
-				)
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
-					(reference "C4")
-					(unit 1)
-				)
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
-					(reference "C2")
 					(unit 1)
 				)
 			)
