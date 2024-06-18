@@ -2447,6 +2447,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C25105"
+			(at 74.93 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2123de6-1a9c-40d6-a9d2-8290b35e9d78")
 		)
@@ -2508,6 +2517,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 60.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25105"
+			(at 60.96 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,6 +3235,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C25105"
+			(at 237.49 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51f687f8-83b6-4a7c-83fa-973044b1507c")
 		)
@@ -3421,6 +3448,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C25105"
+			(at 237.49 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a71f77e-06d9-4b30-9f6a-f3c7165a401f")
 		)
@@ -3548,6 +3584,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25105"
+			(at 66.04 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)

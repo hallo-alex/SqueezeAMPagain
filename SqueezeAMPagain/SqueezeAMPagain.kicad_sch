@@ -1527,6 +1527,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB#" "C25804"
+			(at 255.27 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "398310c1-71a2-47b2-9b34-e52e8d5cb875")
 		)
@@ -1846,6 +1855,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 275.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB#" "C25804"
 			(at 275.59 24.13 0)
 			(effects
 				(font
