@@ -482,13 +482,57 @@
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Supply",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+3.3V": "Supply",
+      "/Amp/GVDD_REG": "Supply",
+      "/Amp/SPK_A+": "Power",
+      "/Amp/SPK_A-": "Power",
+      "/Amp/SPK_B+": "Power",
+      "/Amp/SPK_B-": "Power",
+      "/Amp/SpeakerChannelA+/Amp_out": "Power",
+      "/Amp/SpeakerChannelA+/Cboot": "Supply",
+      "/Amp/SpeakerChannelA-/Amp_out": "Power",
+      "/Amp/SpeakerChannelA-/Cboot": "Supply",
+      "/Amp/SpeakerChannelB+/Amp_out": "Power",
+      "/Amp/SpeakerChannelB+/Cboot": "Supply",
+      "/Amp/SpeakerChannelB-/Amp_out": "Power",
+      "/Amp/SpeakerChannelB-/Cboot": "Supply",
+      "/Power/V_{supply}": "Supply",
+      "GND": "Supply",
+      "GNDA": "Supply",
+      "Net-(JP5-A)": "Supply",
+      "Net-(U1-AVDD)": "Supply",
+      "Net-(U1-CN)": "Supply",
+      "Net-(U1-CP)": "Supply",
+      "Net-(U1-DVDD_REG)": "Supply",
+      "Net-(U5-VIN)": "Supply",
+      "PGND": "Supply",
+      "PVDD": "Supply",
+      "V_{IN}": "Supply"
+    },
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -677,6 +721,10 @@
     [
       "86167bdd-1d24-4489-95f0-02f70a80611f",
       "USB-Uart"
+    ],
+    [
+      "ebd96d54-3bca-4cd9-8a7f-03e0b2610c15",
+      "X_PSU"
     ]
   ],
   "text_variables": {}

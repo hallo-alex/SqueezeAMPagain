@@ -693,6 +693,75 @@
 		)
 		(uuid "a4ece81b-7ae3-444f-8208-280e75fcb241")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 88.9 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bbc8e99-e515-4a08-8064-472a751b8087")
+		(property "Netclass" "Power"
+			(at 89.5985 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 86.36 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "705bf537-b659-4476-a37c-59ca0510806d")
+		(property "Netclass" "Supply"
+			(at 87.0585 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 138.43 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7404586-f018-40be-8ac1-d61dda52936d")
+		(property "Netclass" "Power"
+			(at 139.1285 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 99.06 49.53 0)
