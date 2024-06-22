@@ -2015,142 +2015,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:AMS1117-3.3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AMS1117-3.3"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AMS1117-3.3_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AMS1117-3.3_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -2446,12 +2310,6 @@
 		(color 0 0 0 0)
 		(uuid "caf753a6-dc6e-47c7-8dcd-f0c1e8518b42")
 	)
-	(junction
-		(at 48.26 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8e275d1-f2be-4d71-afca-bc1684cc4327")
-	)
 	(wire
 		(pts
 			(xy 168.91 72.39) (xy 168.91 85.09)
@@ -2461,26 +2319,6 @@
 			(type default)
 		)
 		(uuid "04306fe5-e634-4838-9936-79c77944242e")
-	)
-	(wire
-		(pts
-			(xy 48.26 33.02) (xy 49.53 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c29c60e-06b1-4afa-a19c-254caf0c06d0")
-	)
-	(wire
-		(pts
-			(xy 46.99 33.02) (xy 48.26 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c5987e0-7582-406a-b9d6-077ae92352e3")
 	)
 	(wire
 		(pts
@@ -2531,16 +2369,6 @@
 			(type default)
 		)
 		(uuid "199aad5f-921b-4539-8ff4-90a2effae9d1")
-	)
-	(wire
-		(pts
-			(xy 24.13 33.02) (xy 31.75 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a1c5e71-b10e-4bad-a62f-c22280244361")
 	)
 	(wire
 		(pts
@@ -2664,16 +2492,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 33.02) (xy 48.26 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51de4533-5105-42e1-9fb1-d0609d2d4afa")
-	)
-	(wire
-		(pts
 			(xy 191.77 90.17) (xy 191.77 97.79)
 		)
 		(stroke
@@ -2701,16 +2519,6 @@
 			(type default)
 		)
 		(uuid "5f33958b-6a1b-4b89-bc43-9036a1f9535f")
-	)
-	(wire
-		(pts
-			(xy 59.69 68.58) (xy 59.69 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f5563ef-2ea3-4d4b-9b25-88b5d16a6077")
 	)
 	(wire
 		(pts
@@ -2954,16 +2762,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 53.34) (xy 24.13 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9812539d-603b-45d8-82cd-a2ed58e0e778")
-	)
-	(wire
-		(pts
 			(xy 134.62 39.37) (xy 134.62 41.91)
 		)
 		(stroke
@@ -2991,6 +2789,16 @@
 			(type default)
 		)
 		(uuid "a9c7a6f0-f146-46c1-8c21-a7e40db49356")
+	)
+	(wire
+		(pts
+			(xy 80.01 121.92) (xy 80.01 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa05cd2-c9a8-4005-853b-2eaa48735591")
 	)
 	(wire
 		(pts
@@ -3091,16 +2899,6 @@
 			(type default)
 		)
 		(uuid "d2e008de-4feb-40c3-8dea-060fcfa3987b")
-	)
-	(wire
-		(pts
-			(xy 59.69 53.34) (xy 24.13 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d41c4ca1-1faf-4b4c-abda-67fef7cd29fb")
 	)
 	(wire
 		(pts
@@ -3535,72 +3333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 48.26 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13cdc8a1-d615-431b-a6f0-ec2a60cf261c")
-		(property "Reference" "#PWR097"
-			(at 48.26 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6050f5bd-bce8-4636-8f73-db3a0d510841")
-		)
-		(instances
-			(project "SqueezeAMPagain"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/86167bdd-1d24-4489-95f0-02f70a80611f"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 80.01 116.84 0)
 		(unit 1)
@@ -4024,72 +3756,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f7f3b52-b9a7-4337-a00e-c7e9aa12c769")
-		(property "Reference" "#PWR096"
-			(at 39.37 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff2442fb-97d5-4bff-9cf2-2867932f67fa")
-		)
-		(instances
-			(project "SqueezeAMPagain"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/86167bdd-1d24-4489-95f0-02f70a80611f"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 237.49 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4354,77 +4020,6 @@
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/86167bdd-1d24-4489-95f0-02f70a80611f"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 39.37 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "504c7e48-dbb2-4a5c-b8a2-36ee2418648d")
-		(property "Reference" "U7"
-			(at 39.37 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-3.3"
-			(at 39.37 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 39.37 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 39.37 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6f5e5da6-e28a-4909-8c94-a7ceac10fcee")
-		)
-		(pin "2"
-			(uuid "d66e7cda-f1db-4820-807f-ae56a3d90f51")
-		)
-		(pin "1"
-			(uuid "873407c6-4c29-4b1c-915b-79c8986890ba")
-		)
-		(instances
-			(project "SqueezeAMPagain"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/86167bdd-1d24-4489-95f0-02f70a80611f"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -5088,73 +4683,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 49.53 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ad462ed-51e5-4dae-a512-00b9d762e682")
-		(property "Reference" "#PWR098"
-			(at 45.72 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 53.34 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 49.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7b42205-9b33-4389-84f1-fecd0867ceba")
-		)
-		(instances
-			(project "SqueezeAMPagain"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/86167bdd-1d24-4489-95f0-02f70a80611f"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 134.62 45.72 0)
 		(unit 1)
@@ -5444,7 +4972,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 120.65 0)
+		(at 80.01 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5453,7 +4981,7 @@
 		(fields_autoplaced yes)
 		(uuid "de84cd7f-5d4e-42f3-a592-c46bff365408")
 		(property "Reference" "#PWR073"
-			(at 80.01 127 0)
+			(at 80.01 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +4990,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 125.73 0)
+			(at 80.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +4998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 120.65 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 120.65 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5016,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 120.65 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,76 +5328,6 @@
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/86167bdd-1d24-4489-95f0-02f70a80611f"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 48.26 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f665162e-d7c2-4517-9bf1-ceb19bc247f0")
-		(property "Reference" "C76"
-			(at 52.07 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 52.07 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 49.2252 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c6b9ba2c-a288-44d7-9c65-8b891202b5bd")
-		)
-		(pin "1"
-			(uuid "51230b1e-70ff-4442-a97b-ae3df585f824")
-		)
-		(instances
-			(project "SqueezeAMPagain"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/86167bdd-1d24-4489-95f0-02f70a80611f"
-					(reference "C76")
 					(unit 1)
 				)
 			)

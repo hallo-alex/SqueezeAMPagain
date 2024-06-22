@@ -1627,6 +1627,18 @@
 		)
 		(uuid "011729a8-9d69-4f2d-9a9d-4f537f2678f9")
 	)
+	(hierarchical_label "GPIO9"
+		(shape bidirectional)
+		(at 104.14 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11d7e7df-6221-4af1-b875-39cbf9c302d0")
+	)
 	(hierarchical_label "LRCLK"
 		(shape output)
 		(at 50.8 104.14 180)
@@ -1641,7 +1653,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape output)
-		(at 191.77 124.46 0)
+		(at 149.86 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1663,9 +1675,33 @@
 		)
 		(uuid "30ed6a79-032a-47c1-a078-a4bdae8d7f24")
 	)
+	(hierarchical_label "GPIO19"
+		(shape bidirectional)
+		(at 149.86 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37074f2a-83ca-4a5e-b71b-c4f3bb68cb27")
+	)
+	(hierarchical_label "GPIO20"
+		(shape bidirectional)
+		(at 149.86 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "399263d6-9fe5-4e3b-ae59-df24110b51d4")
+	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 191.77 121.92 0)
+		(at 149.86 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1674,6 +1710,18 @@
 			(justify left)
 		)
 		(uuid "3d04c760-6d0d-4605-a300-aa8e82f8a8cb")
+	)
+	(hierarchical_label "GPIO7"
+		(shape bidirectional)
+		(at 104.14 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50be10cc-2bbd-419a-a734-17afd838f529")
 	)
 	(hierarchical_label "RX"
 		(shape input)
@@ -1711,6 +1759,30 @@
 		)
 		(uuid "963e6e54-4b07-4e5b-954e-c89c7e60edd7")
 	)
+	(hierarchical_label "GPIO6"
+		(shape bidirectional)
+		(at 104.14 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "991c97f3-49b2-422a-a4f0-329f85d7bfa9")
+	)
+	(hierarchical_label "GPIO11"
+		(shape bidirectional)
+		(at 104.14 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1e22c79-76eb-4157-9c0c-88e9eb0defb9")
+	)
 	(hierarchical_label "TX"
 		(shape output)
 		(at 72.39 71.12 180)
@@ -1735,6 +1807,18 @@
 		)
 		(uuid "b71d5b17-8acf-420e-bd0f-f769fd91285e")
 	)
+	(hierarchical_label "GPIO18"
+		(shape bidirectional)
+		(at 149.86 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3bbbbf4-bfc0-49e5-8bbc-4ddc882d8a64")
+	)
 	(hierarchical_label "BCLK"
 		(shape output)
 		(at 52.07 106.68 180)
@@ -1758,6 +1842,30 @@
 			(justify right)
 		)
 		(uuid "ce259421-ff13-4068-93e7-04e223fdf4eb")
+	)
+	(hierarchical_label "GPIO8"
+		(shape bidirectional)
+		(at 104.14 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6829fb7-06a2-42e6-af96-dffcbe51d1bc")
+	)
+	(hierarchical_label "GPIO10"
+		(shape bidirectional)
+		(at 104.14 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3cec409-5ed3-4523-9666-147a170f6cb5")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2298,6 +2406,72 @@
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/e8aa0c29-7d4a-4486-816f-de6795c685f9"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d45f01a-bf96-41bf-9706-7f61e8a0351b")
+		(property "Reference" "#PWR0119"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98d540dc-69d4-43b2-9d3b-5722b38472ea")
+		)
+		(instances
+			(project "SqueezeAMPagain"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/e8aa0c29-7d4a-4486-816f-de6795c685f9"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
