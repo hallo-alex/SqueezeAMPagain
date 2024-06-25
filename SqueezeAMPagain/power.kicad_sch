@@ -5757,6 +5757,28 @@
 		)
 		(uuid "fd6566a9-c5fd-44be-ab00-70c4d0ea6425")
 	)
+	(label "V_{IN,SW}"
+		(at 193.04 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4426327e-32d1-4a31-93f2-7b5b498e9b59")
+	)
+	(label "GND_{IN}"
+		(at 138.43 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fccd94c-5bf8-4771-bf31-0b52502799fc")
+	)
 	(label "PH"
 		(at 168.91 123.19 0)
 		(fields_autoplaced yes)
@@ -5885,6 +5907,29 @@
 		(uuid "0a8bf0f5-3c6a-4790-bd71-d2bfb01c67ec")
 		(property "Netclass" "Supply"
 			(at 244.5385 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 64.77 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2623009a-f4f3-4c1b-bfab-4102c9f0dd1e")
+		(property "Netclass" "Supply"
+			(at 65.4685 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

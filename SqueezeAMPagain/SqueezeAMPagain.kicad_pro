@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 0.0,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -525,6 +525,7 @@
       "GND": "Supply",
       "GNDA": "Supply",
       "Net-(JP5-A)": "Supply",
+      "Net-(JP5-B)": "Supply",
       "Net-(U1-AVDD)": "Supply",
       "Net-(U1-CN)": "Supply",
       "Net-(U1-CP)": "Supply",

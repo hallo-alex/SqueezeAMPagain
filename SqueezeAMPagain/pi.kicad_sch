@@ -1111,6 +1111,54 @@
 		)
 		(uuid "3679d041-b0aa-492b-a4ba-a1dd021b4e57")
 	)
+	(hierarchical_label "SCLK"
+		(shape output)
+		(at 106.68 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4527d887-8844-4900-a42d-83cff885c317")
+	)
+	(hierarchical_label "GPIO25"
+		(shape output)
+		(at 66.04 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cc14dfa-cba7-4ffe-93cc-1c628788b852")
+	)
+	(hierarchical_label "~{CE0}"
+		(shape output)
+		(at 106.68 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "571ad95c-5592-408d-9628-470e7ff49cd3")
+	)
+	(hierarchical_label "MOSI"
+		(shape output)
+		(at 106.68 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6eb7339a-c6a7-4e73-af9b-ef13b4ed2404")
+	)
 	(hierarchical_label "BCLK"
 		(shape output)
 		(at 60.96 77.47 180)
@@ -1134,6 +1182,18 @@
 			(justify left)
 		)
 		(uuid "aff9ccdf-ec54-4bda-9792-41d3de2a30aa")
+	)
+	(hierarchical_label "MISO"
+		(shape output)
+		(at 106.68 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eabacdd7-25f6-4655-aac0-6818f3cc6757")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
