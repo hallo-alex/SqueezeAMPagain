@@ -808,6 +808,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1027,6 +1148,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 77.47) (xy 66.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486fbebd-c8e6-411d-80bd-80fdf4a5850b")
+	)
+	(wire
+		(pts
 			(xy 114.3 72.39) (xy 106.68 72.39)
 		)
 		(stroke
@@ -1037,7 +1168,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 77.47) (xy 66.04 77.47)
+			(xy 39.37 77.47) (xy 43.18 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1047,7 +1178,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 82.55) (xy 66.04 82.55)
+			(xy 39.37 82.55) (xy 49.53 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1057,7 +1188,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 87.63) (xy 66.04 87.63)
+			(xy 57.15 82.55) (xy 66.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8525ebb-a75e-4ee6-bea2-502a3df1cf8b")
+	)
+	(wire
+		(pts
+			(xy 39.37 87.63) (xy 41.91 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1075,6 +1216,16 @@
 		)
 		(uuid "efe24a43-1e49-4304-8038-719508c4a3cb")
 	)
+	(wire
+		(pts
+			(xy 49.53 87.63) (xy 66.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f608f19b-aba0-4386-bc75-484098a8bb71")
+	)
 	(hierarchical_label "PWM"
 		(shape output)
 		(at 106.68 105.41 0)
@@ -1087,9 +1238,21 @@
 		)
 		(uuid "0d407c5c-a74f-4e6d-9bb9-4fe651d92641")
 	)
+	(hierarchical_label "GPIO5"
+		(shape bidirectional)
+		(at 106.68 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11593c5f-7aa5-4bc2-9a0a-d696bfc31f0f")
+	)
 	(hierarchical_label "LRCLK"
 		(shape output)
-		(at 60.96 82.55 180)
+		(at 39.37 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1101,7 +1264,7 @@
 	)
 	(hierarchical_label "DATA"
 		(shape output)
-		(at 60.96 87.63 180)
+		(at 39.37 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1161,7 +1324,7 @@
 	)
 	(hierarchical_label "BCLK"
 		(shape output)
-		(at 60.96 77.47 180)
+		(at 39.37 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1170,6 +1333,54 @@
 			(justify right)
 		)
 		(uuid "7a03d49c-18e6-4e25-b9a1-61f0876610b0")
+	)
+	(hierarchical_label "GPIO22"
+		(shape bidirectional)
+		(at 66.04 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cdc2349-7663-4841-bf19-e20a5b50526e")
+	)
+	(hierarchical_label "GPIO23"
+		(shape bidirectional)
+		(at 66.04 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97ee0ae3-6f9a-47bc-abe9-ce405f2dafb4")
+	)
+	(hierarchical_label "GPIO24"
+		(shape bidirectional)
+		(at 66.04 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0cb3d42-e2e7-4018-9818-722080456ab7")
+	)
+	(hierarchical_label "GPIO4"
+		(shape bidirectional)
+		(at 106.68 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a849140f-7271-4432-8d75-9d246fcb064c")
 	)
 	(hierarchical_label "SCL"
 		(shape output)
@@ -1182,6 +1393,42 @@
 			(justify left)
 		)
 		(uuid "aff9ccdf-ec54-4bda-9792-41d3de2a30aa")
+	)
+	(hierarchical_label "GPIO36"
+		(shape bidirectional)
+		(at 66.04 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b72cce70-0eb3-420f-a85c-81eca49a6224")
+	)
+	(hierarchical_label "GPIO13"
+		(shape bidirectional)
+		(at 106.68 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c497c82e-451e-4765-bdea-775afea0878d")
+	)
+	(hierarchical_label "GPIO27"
+		(shape output)
+		(at 66.04 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4e2973f-9992-4a49-b7fd-e597af0747b5")
 	)
 	(hierarchical_label "MISO"
 		(shape output)
@@ -1268,6 +1515,74 @@
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84e1ade5-c34a-48ac-979b-d27b62595f92")
+		(property "Reference" "R36"
+			(at 45.72 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 45.72 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e66da60-306f-4ef1-970f-e55007302d95")
+		)
+		(pin "2"
+			(uuid "c3ccdf5a-b4bf-4f43-b61d-ec597bebd82c")
+		)
+		(instances
+			(project "SqueezeAMPagain"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -1518,6 +1833,142 @@
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e06ddf9e-d850-4a1e-a82f-81e84666450f")
+		(property "Reference" "R34"
+			(at 46.99 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 46.99 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 46.99 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27e648a5-0e65-4ff1-8a66-43609535e2c9")
+		)
+		(pin "2"
+			(uuid "a2d4e2ff-face-4b0b-9f14-1cd815e5f780")
+		)
+		(instances
+			(project "SqueezeAMPagain"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 53.34 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e53a7120-f5bf-426b-8960-5d879b2b2da3")
+		(property "Reference" "R35"
+			(at 53.34 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 53.34 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 53.34 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 53.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bcaf619-2ce8-4167-8874-430ba01f4931")
+		)
+		(pin "2"
+			(uuid "bee7039f-bdff-4646-96c8-cb1f98c4756d")
+		)
+		(instances
+			(project "SqueezeAMPagain"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
+					(reference "R35")
 					(unit 1)
 				)
 			)

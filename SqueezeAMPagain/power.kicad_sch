@@ -5988,6 +5988,29 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 134.62 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9a6438b-eeb2-4142-a64f-950e482a0872")
+		(property "Netclass" "Supply"
+			(at 135.3185 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 99.06 118.11 0)
 		(fields_autoplaced yes)
 		(effects
