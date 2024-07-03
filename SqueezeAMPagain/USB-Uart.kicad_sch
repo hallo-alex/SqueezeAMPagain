@@ -3200,6 +3200,119 @@
 		)
 		(uuid "b89397e1-e169-4223-9905-670c6661859e")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 33.02 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a315bcad-30ca-46e3-b95d-6ca1df049739")
+		(property "Netclass" "USB"
+			(at 33.7185 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 46.99 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bddb322b-61ac-4af3-bcc8-6a7d1200fcfc")
+		(property "Netclass" "Supply"
+			(at 46.736 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 68.58 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6c6bd78-1b31-4b19-a50c-df58bce84905")
+		(property "Netclass" "Supply"
+			(at 69.2785 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 33.02 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efdf2ccc-e3e9-458c-837a-1c025810e7c7")
+		(property "Netclass" "USB"
+			(at 33.7185 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 30.48 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb990dd4-98e6-4c77-b556-6cbd701d5a9b")
+		(property "Netclass" "Supply"
+			(at 30.226 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 19.05 104.14 0)
@@ -4547,10 +4660,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "84aa4501-e311-4290-b943-d4374d495169")
 		(property "Reference" "FB6"
-			(at 53.3019 62.23 90)
+			(at 52.07 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4670,7 @@
 			)
 		)
 		(property "Value" "600Ω@100MHz 500mA"
-			(at 53.3019 64.77 90)
+			(at 60.96 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)

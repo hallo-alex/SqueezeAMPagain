@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 0.0,
+          "height": 0.3,
+          "width": 1.475
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|141050001|44100001|f42c881c-53e5-47ec-928b-11cddcd887b5|07404489-a4cb-4d8d-a7cf-4d158bb69e36"
+      ],
       "meta": {
         "version": 2
       },
@@ -521,9 +523,14 @@
       "/Amp/SpeakerChannelB+/Cboot": "Supply",
       "/Amp/SpeakerChannelB-/Amp_out": "Power",
       "/Amp/SpeakerChannelB-/Cboot": "Supply",
+      "/Power/V_{supply,plug}": "Supply",
       "/Power/V_{supply}": "Supply",
+      "/USB-Uart/D+": "USB",
+      "/USB-Uart/D-": "USB",
       "GND": "Supply",
       "GNDA": "Supply",
+      "Net-(D4-A)": "Supply",
+      "Net-(D4-K)": "Supply",
       "Net-(JP5-A)": "Supply",
       "Net-(JP5-B)": "Supply",
       "Net-(U1-AVDD)": "Supply",
@@ -531,9 +538,11 @@
       "Net-(U1-CP)": "Supply",
       "Net-(U1-DVDD_REG)": "Supply",
       "Net-(U5-VIN)": "Supply",
+      "Net-(U7-VI)": "Supply",
       "PGND": "Supply",
       "PVDD": "Supply",
-      "V_{IN}": "Supply"
+      "V_{IN}": "Supply",
+      "V_{USB}": "Supply"
     },
     "netclass_patterns": [
       {

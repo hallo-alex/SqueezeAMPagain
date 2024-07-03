@@ -5,7 +5,7 @@
 	(uuid "7f4c1a23-6011-4759-bffd-c94fa0a46d29")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack_Switch_MountingPin"
+		(symbol "Connector:Barrel_Jack_Switch"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -18,13 +18,12 @@
 					)
 				)
 			)
-			(property "Value" "Barrel_Jack_Switch_MountingPin"
-				(at 1.27 -6.35 0)
+			(property "Value" "Barrel_Jack_Switch"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -45,7 +44,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Barrel Jack with an internal switch and a mounting pin"
+			(property "Description" "DC Barrel Jack with an internal switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Barrel_Jack_Switch_MountingPin_0_1"
+			(symbol "Barrel_Jack_Switch_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -168,27 +167,7 @@
 					)
 				)
 			)
-			(symbol "Barrel_Jack_Switch_MountingPin_1_1"
-				(polyline
-					(pts
-						(xy -1.016 -4.572) (xy 1.016 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -4.191 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
+			(symbol "Barrel_Jack_Switch_1_1"
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -236,24 +215,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5779,6 +5740,17 @@
 		)
 		(uuid "4fccd94c-5bf8-4771-bf31-0b52502799fc")
 	)
+	(label "GND_{supply}"
+		(at 60.96 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e204919-b3b7-493f-a64b-df64766e2ee6")
+	)
 	(label "PH"
 		(at 168.91 123.19 0)
 		(fields_autoplaced yes)
@@ -5791,6 +5763,17 @@
 		(uuid "82579e10-9763-4839-b6e4-4e984a467e5f")
 	)
 	(label "V_{supply}"
+		(at 99.06 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8d797ba-577e-4a30-81de-1fe0421dc9a9")
+	)
+	(label "V_{supply,plug}"
 		(at 58.42 53.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5930,6 +5913,29 @@
 		(uuid "2623009a-f4f3-4c1b-bfab-4102c9f0dd1e")
 		(property "Netclass" "Supply"
 			(at 65.4685 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 82.55 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c1ff306-db77-4ec4-a379-a3b6b6a08296")
+		(property "Netclass" "Supply"
+			(at 83.2485 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,80 +7002,6 @@
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/0f57a469-41de-4f06-810e-cfdb6f5b9e50"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch_MountingPin")
-		(at 34.29 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d440cf7-5040-4d5e-873b-eaa3d12badb1")
-		(property "Reference" "J7"
-			(at 34.29 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack_Switch_MountingPin"
-			(at 34.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-079BH_Horizontal"
-			(at 35.56 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack with an internal switch and a mounting pin"
-			(at 34.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "223fa200-5fe3-47ad-bee0-8aff42bd5c7f")
-		)
-		(pin "MP"
-			(uuid "6031c6b2-3f99-40b9-a4d9-813a50b0c5b2")
-		)
-		(pin "3"
-			(uuid "fa704a9c-c32a-430f-bafc-3cf0827933e9")
-		)
-		(pin "2"
-			(uuid "8241ed1c-6723-4f1e-b777-8d1c7cfc8736")
-		)
-		(instances
-			(project ""
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/0f57a469-41de-4f06-810e-cfdb6f5b9e50"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -9974,6 +9906,86 @@
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/0f57a469-41de-4f06-810e-cfdb6f5b9e50"
 					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 34.29 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac01c469-7c6d-4ffe-9a1a-3243247ffca1")
+		(property "Reference" "J8"
+			(at 34.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_Switch"
+			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal"
+			(at 35.56 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 34.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "reichelt#" "CLIFF FCR681465P"
+			(at 34.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d92a26bb-429d-489c-adcb-ca25eccc7b53")
+		)
+		(pin "3"
+			(uuid "add484ef-1197-4eb8-9f2b-c8bfc761bca6")
+		)
+		(pin "2"
+			(uuid "10c66c02-297e-4b42-8ce0-25f81d9e4549")
+		)
+		(instances
+			(project ""
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/0f57a469-41de-4f06-810e-cfdb6f5b9e50"
+					(reference "J8")
 					(unit 1)
 				)
 			)
