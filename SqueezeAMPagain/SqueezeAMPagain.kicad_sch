@@ -2189,7 +2189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07b8d427-93ed-4876-aff6-599951f57d96")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR02"
 			(at 275.59 22.86 0)
 			(effects
 				(font
@@ -2239,7 +2239,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
-					(reference "#PWR095")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2255,7 +2255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13bc73ef-4809-498f-a3a4-b7570632959c")
-		(property "Reference" "R37"
+		(property "Reference" "R1"
 			(at 90.17 66.04 90)
 			(effects
 				(font
@@ -2307,7 +2307,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
-					(reference "R37")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2385,7 +2385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e8c3338-4444-4b1b-a8c7-2737c6aef69b")
-		(property "Reference" "R27"
+		(property "Reference" "R2"
 			(at 257.81 22.8599 0)
 			(effects
 				(font
@@ -2448,7 +2448,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
-					(reference "R27")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2653,7 +2653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0eaa686-1753-4b85-bcea-a6e29ba6808d")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR01"
 			(at 255.27 22.86 0)
 			(effects
 				(font
@@ -2703,7 +2703,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
-					(reference "#PWR094")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2718,7 +2718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f282e459-b1bf-464a-828c-dc674af98d6f")
-		(property "Reference" "R28"
+		(property "Reference" "R3"
 			(at 278.13 22.8599 0)
 			(effects
 				(font
@@ -2781,7 +2781,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0"
-					(reference "R28")
+					(reference "R3")
 					(unit 1)
 				)
 			)

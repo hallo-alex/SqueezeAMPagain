@@ -1464,7 +1464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "646fc31b-18a6-40a9-92d4-ee6ee75077a8")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR064"
 			(at 81.28 58.42 0)
 			(effects
 				(font
@@ -1514,7 +1514,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
-					(reference "#PWR07")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1530,7 +1530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84e1ade5-c34a-48ac-979b-d27b62595f92")
-		(property "Reference" "R36"
+		(property "Reference" "R15"
 			(at 45.72 81.28 90)
 			(effects
 				(font
@@ -1582,7 +1582,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
-					(reference "R36")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -1598,7 +1598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b24270bf-a7d2-4dc0-9a8d-ec1a32856fcb")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 88.5541 120.65 0)
 			(effects
 				(font
@@ -1766,7 +1766,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1782,7 +1782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7443eb5-247e-4b38-896e-ae936a614c52")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR065"
 			(at 86.36 127 0)
 			(effects
 				(font
@@ -1832,7 +1832,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
-					(reference "#PWR06")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1848,7 +1848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e06ddf9e-d850-4a1e-a82f-81e84666450f")
-		(property "Reference" "R34"
+		(property "Reference" "R16"
 			(at 46.99 71.12 90)
 			(effects
 				(font
@@ -1900,7 +1900,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
-					(reference "R34")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1916,7 +1916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e53a7120-f5bf-426b-8960-5d879b2b2da3")
-		(property "Reference" "R35"
+		(property "Reference" "R17"
 			(at 53.34 76.2 90)
 			(effects
 				(font
@@ -1968,7 +1968,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/26fa6d25-f20f-4499-8e61-2f475408dc13"
-					(reference "R35")
+					(reference "R17")
 					(unit 1)
 				)
 			)
