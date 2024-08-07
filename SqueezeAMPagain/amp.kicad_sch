@@ -5838,12 +5838,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 17.78 105.41 0)
+		(property "Value" "+3.3V_{SW}"
+			(at 20.32 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7538,12 +7539,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 22.86 82.55 0)
+		(property "Value" "+3.3V_{SW}"
+			(at 25.4 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11780,7 +11782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3.3V_{SW}"
 			(at 79.502 117.856 0)
 			(effects
 				(font

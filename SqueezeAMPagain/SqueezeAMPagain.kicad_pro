@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 1.7,
-          "width": 0.85
+          "drill": 0.0,
+          "height": 1.1,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,9 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|141050001|44100001|f42c881c-53e5-47ec-928b-11cddcd887b5|07404489-a4cb-4d8d-a7cf-4d158bb69e36"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -509,6 +507,7 @@
     "net_colors": null,
     "netclass_assignments": {
       "+3.3V": "Supply",
+      "+3.3V_{SW}": "Supply",
       "+5V": "Supply",
       "/Amp/GVDD_REG": "Supply",
       "/Amp/SPK_A+": "Power",
