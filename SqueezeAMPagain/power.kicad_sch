@@ -12431,7 +12431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor:L_Vishay_IHLP-3232"
+		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRB00060612"
 			(at 185.42 123.19 0)
 			(effects
 				(font
@@ -12468,6 +12468,15 @@
 			)
 		)
 		(property "mfr" "PIS2816-270M-04"
+			(at 185.42 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcpcb" "C475526"
 			(at 185.42 123.19 90)
 			(effects
 				(font
