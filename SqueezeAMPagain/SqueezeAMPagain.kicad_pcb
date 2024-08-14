@@ -1615,7 +1615,7 @@
 		(path "/40e991d7-be56-488e-9fc7-d720bf03f7b1/9f0ae1a6-197b-4f83-ab22-f39cdcdb9524")
 		(sheetname "SpkConn")
 		(sheetfile "spkconn.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.06 8.11)
 			(end 6.06 -1.31)
@@ -1933,7 +1933,7 @@
 		(path "/0f57a469-41de-4f06-810e-cfdb6f5b9e50/d9219c9d-e6c9-4074-9c97-2556db9460d3")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.06 8.11)
 			(end 6.06 -1.31)
@@ -4044,7 +4044,7 @@
 		(path "/7add08aa-332a-4b28-a3d6-ce8f466a0a0b/85cdae7d-1b3f-4c71-9d07-1da475cb5dde")
 		(sheetname "esp")
 		(sheetfile "esp.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -5311,7 +5311,7 @@
 		(path "/0f57a469-41de-4f06-810e-cfdb6f5b9e50/e6e65f8d-d559-42dc-b6c1-c472af6e4715")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 2.5 0)
 			(end 8.62 0)
@@ -10197,7 +10197,7 @@
 		(path "/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675/8641dcde-c4fa-4bce-9166-d6e76eae8801")
 		(sheetname "SpeakerChannelA+")
 		(sheetfile "spkchannel.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 2.5 0)
 			(end 8.62 0)
@@ -10830,7 +10830,7 @@
 		(path "/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5/8641dcde-c4fa-4bce-9166-d6e76eae8801")
 		(sheetname "SpeakerChannelB+")
 		(sheetfile "spkchannel.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 2.5 0)
 			(end 8.619999 0)
@@ -13724,7 +13724,7 @@
 		(path "/07ac3e8e-f1ad-466e-8093-0e429e520f15/99e8be87-826d-416a-9301-741b6d2b2b67")
 		(sheetname "Amp")
 		(sheetfile "amp.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 2.58 -5.08)
 			(end 2.58 5.08)
@@ -16435,7 +16435,7 @@
 		(path "/40e991d7-be56-488e-9fc7-d720bf03f7b1/a2a09faa-ee41-41da-a705-7887947ada46")
 		(sheetname "SpkConn")
 		(sheetfile "spkconn.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.06 8.11)
 			(end 6.06 -1.31)
@@ -19786,7 +19786,7 @@
 		(path "/ebd96d54-3bca-4cd9-8a7f-03e0b2610c15/0eacbfad-f928-4721-91e4-5329fb46f612")
 		(sheetname "X_PSU")
 		(sheetfile "X_PSU.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -4.68 -0.5)
 			(end -4.68 0.5)
@@ -21692,7 +21692,7 @@
 		(path "/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e/8641dcde-c4fa-4bce-9166-d6e76eae8801")
 		(sheetname "SpeakerChannelB-")
 		(sheetfile "spkchannel.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 2.5 0)
 			(end 8.62 0)
@@ -24598,7 +24598,7 @@
 		(path "/07ac3e8e-f1ad-466e-8093-0e429e520f15/8b7c3fac-5cda-49d7-ac15-beb914ecd94d")
 		(sheetname "Amp")
 		(sheetfile "amp.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 7.581 -0.599)
 			(end 7.581 0.599)
@@ -36390,7 +36390,7 @@
 		(path "/ee00a6dc-f977-4055-96a4-c54a9ac88e93/db60af51-39cf-446e-8a91-f748185d65e2")
 		(sheetname "FPConnector")
 		(sheetfile "display.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.27 28.07)
 			(end 4.27 -5.21)
@@ -44800,7 +44800,7 @@
 		(path "/07ac3e8e-f1ad-466e-8093-0e429e520f15/b7b629e2-edb7-430d-916c-9656e5081c7c")
 		(sheetname "Amp")
 		(sheetfile "amp.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.979646 -2.875)
 			(end -1.979646 -2.875)
@@ -46971,7 +46971,7 @@
 		(path "/07ac3e8e-f1ad-466e-8093-0e429e520f15/3d850085-9ec7-41fb-8afb-7d45a8fd175a")
 		(sheetname "Amp")
 		(sheetfile "amp.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.979646 -2.875)
 			(end -1.979646 -2.875)
@@ -50695,7 +50695,7 @@
 		(path "/0f57a469-41de-4f06-810e-cfdb6f5b9e50/b549997e-b977-451f-b540-f4ab0b4b28a0")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 2.5 0)
 			(end 8.62 0)
@@ -53058,7 +53058,7 @@
 		(path "/86167bdd-1d24-4489-95f0-02f70a80611f/7d7042e9-8e09-47ec-93f9-8944750b68e3")
 		(sheetname "USB-Uart")
 		(sheetfile "USB-Uart.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 14.03)
 			(end 1.33 14.03)
@@ -57433,7 +57433,7 @@
 		(path "/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615/8641dcde-c4fa-4bce-9166-d6e76eae8801")
 		(sheetname "SpeakerChannelA-")
 		(sheetfile "spkchannel.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 2.5 0)
 			(end 8.62 0)
@@ -58558,7 +58558,7 @@
 		(path "/07ac3e8e-f1ad-466e-8093-0e429e520f15/25cdfe67-3eae-42c8-8d6c-3b40d617e56c")
 		(sheetname "Amp")
 		(sheetfile "amp.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.979646 -2.875)
 			(end -1.979646 -2.875)
@@ -60729,7 +60729,7 @@
 		(path "/0f57a469-41de-4f06-810e-cfdb6f5b9e50/ac01c469-7c6d-4ffe-9a1a-3243247ffca1")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.6 13.8)
 			(end -4.6 13.8)
@@ -62894,7 +62894,7 @@
 		(path "/07ac3e8e-f1ad-466e-8093-0e429e520f15/d96c4c79-9d46-47b0-9291-d6fc1fc280e5")
 		(sheetname "Amp")
 		(sheetfile "amp.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.979646 -2.875)
 			(end -1.979646 -2.875)
