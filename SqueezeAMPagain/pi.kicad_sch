@@ -1146,9 +1146,29 @@
 			)
 		)
 	)
+	(polyline
+		(pts
+			(xy 19.05 91.44) (xy 19.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06968741-54a3-4d15-bb97-43f3384956f5")
+	)
+	(polyline
+		(pts
+			(xy 41.91 91.44) (xy 41.91 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9c0237-4074-409e-8f05-3cf4f3382450")
+	)
 	(wire
 		(pts
-			(xy 50.8 77.47) (xy 66.04 77.47)
+			(xy 33.02 77.47) (xy 66.04 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1166,9 +1186,19 @@
 		)
 		(uuid "593d3994-393e-4674-91e4-f30a9f38e057")
 	)
+	(polyline
+		(pts
+			(xy 39.37 92.71) (xy 41.91 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4a5786-5dbc-45b1-984c-4d3dfb122cb4")
+	)
 	(wire
 		(pts
-			(xy 39.37 77.47) (xy 43.18 77.47)
+			(xy 21.59 77.47) (xy 25.4 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1178,7 +1208,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 82.55) (xy 49.53 82.55)
+			(xy 21.59 82.55) (xy 31.75 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1186,9 +1216,19 @@
 		)
 		(uuid "895d4faa-b1a0-4fd2-8713-0e04c817d7f7")
 	)
+	(polyline
+		(pts
+			(xy 19.05 92.71) (xy 21.59 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95fd6810-66f1-45ad-b846-2e46299cdc04")
+	)
 	(wire
 		(pts
-			(xy 57.15 82.55) (xy 66.04 82.55)
+			(xy 39.37 82.55) (xy 66.04 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1198,7 +1238,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 87.63) (xy 41.91 87.63)
+			(xy 21.59 87.63) (xy 24.13 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1218,13 +1258,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 87.63) (xy 66.04 87.63)
+			(xy 31.75 87.63) (xy 66.04 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f608f19b-aba0-4386-bc75-484098a8bb71")
+	)
+	(text "\"R\" for Raspberry"
+		(exclude_from_sim no)
+		(at 30.734 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39c84398-309c-4235-9c4d-1c2c5f876fca")
 	)
 	(hierarchical_label "PWM"
 		(shape output)
@@ -1252,7 +1302,7 @@
 	)
 	(hierarchical_label "LRCLK"
 		(shape output)
-		(at 39.37 82.55 180)
+		(at 21.59 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1264,7 +1314,7 @@
 	)
 	(hierarchical_label "DATA"
 		(shape output)
-		(at 39.37 87.63 180)
+		(at 21.59 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1324,7 +1374,7 @@
 	)
 	(hierarchical_label "BCLK"
 		(shape output)
-		(at 39.37 77.47 180)
+		(at 21.59 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1522,7 +1572,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 87.63 90)
+		(at 27.94 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1531,7 +1581,7 @@
 		(fields_autoplaced yes)
 		(uuid "84e1ade5-c34a-48ac-979b-d27b62595f92")
 		(property "Reference" "R15"
-			(at 45.72 81.28 90)
+			(at 27.94 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1589,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 45.72 83.82 90)
+			(at 27.94 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1597,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 45.72 89.408 90)
+			(at 27.94 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 87.63 0)
+			(at 27.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1615,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 87.63 0)
+			(at 27.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1890,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 77.47 90)
+		(at 29.21 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1849,7 +1899,7 @@
 		(fields_autoplaced yes)
 		(uuid "e06ddf9e-d850-4a1e-a82f-81e84666450f")
 		(property "Reference" "R16"
-			(at 46.99 71.12 90)
+			(at 29.21 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +1907,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 46.99 73.66 90)
+			(at 29.21 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1915,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 46.99 79.248 90)
+			(at 29.21 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1924,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 77.47 0)
+			(at 29.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +1933,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.99 77.47 0)
+			(at 29.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1958,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 82.55 90)
+		(at 35.56 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1917,7 +1967,7 @@
 		(fields_autoplaced yes)
 		(uuid "e53a7120-f5bf-426b-8960-5d879b2b2da3")
 		(property "Reference" "R17"
-			(at 53.34 76.2 90)
+			(at 35.56 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +1975,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 53.34 78.74 90)
+			(at 35.56 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +1983,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 53.34 84.328 90)
+			(at 35.56 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +1992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 82.55 0)
+			(at 35.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +2001,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 82.55 0)
+			(at 35.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

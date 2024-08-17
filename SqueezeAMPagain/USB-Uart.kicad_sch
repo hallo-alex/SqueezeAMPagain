@@ -5240,7 +5240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_XKB_U254-051T-4BH83-F1S"
+		(property "Footprint" "usb_micro_xnj073:usb_micro_xnj_073"
 			(at 25.4 74.93 0)
 			(effects
 				(font

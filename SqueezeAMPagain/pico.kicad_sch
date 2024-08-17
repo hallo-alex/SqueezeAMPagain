@@ -1802,6 +1802,16 @@
 		)
 		(uuid "070e97ea-6c43-4ede-a7a0-73958128f944")
 	)
+	(polyline
+		(pts
+			(xy 55.88 116.84) (xy 64.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120cc6c9-b4c6-46f6-abda-4ff417a9e515")
+	)
 	(wire
 		(pts
 			(xy 121.92 38.1) (xy 121.92 40.64)
@@ -1851,6 +1861,16 @@
 			(type default)
 		)
 		(uuid "4e059564-cf63-44ca-bad1-2a5546c18263")
+	)
+	(polyline
+		(pts
+			(xy 88.9 115.57) (xy 88.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555d047a-836d-46bc-9e69-6485ac533c13")
 	)
 	(wire
 		(pts
@@ -1922,6 +1942,16 @@
 		)
 		(uuid "b3c15c07-201a-4cc7-b38f-c9d1436024d8")
 	)
+	(polyline
+		(pts
+			(xy 55.88 115.57) (xy 55.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b032d2-9b20-4f81-9ebd-a54b6f5794cc")
+	)
 	(wire
 		(pts
 			(xy 113.03 40.64) (xy 121.92 40.64)
@@ -1941,6 +1971,16 @@
 			(type default)
 		)
 		(uuid "d240c78a-c77b-4abe-b505-09272f635067")
+	)
+	(polyline
+		(pts
+			(xy 77.47 116.84) (xy 88.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84f8250-40e1-4b18-b62d-eebbaa073cbf")
 	)
 	(wire
 		(pts
@@ -1971,6 +2011,16 @@
 			(type default)
 		)
 		(uuid "f934abdf-ce09-4563-8a08-357fcf275015")
+	)
+	(text "\"P\" for pico"
+		(exclude_from_sim no)
+		(at 70.612 117.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6368523-3034-44ea-9382-112ad9b68f8d")
 	)
 	(hierarchical_label "SPI0_SCK"
 		(shape output)
