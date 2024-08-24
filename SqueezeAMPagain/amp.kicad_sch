@@ -5,7 +5,9 @@
 	(uuid "92e6052a-7089-4606-b2d6-70bc78862576")
 	(paper "A4")
 	(title_block
-		(title "Amplifier section")
+		(title "SqueezeAMP_{again}")
+		(date "2024-08-23")
+		(rev "1.0")
 	)
 	(lib_symbols
 		(symbol "Device:C"

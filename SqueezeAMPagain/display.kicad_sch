@@ -5,7 +5,9 @@
 	(uuid "348b0889-62c5-4bcf-a9d6-6034814e44d9")
 	(paper "A4")
 	(title_block
-		(title "Frontpanel connector")
+		(title "SqueezeAMP_{again}")
+		(date "2024-08-23")
+		(rev "1.0")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x10_Odd_Even"
@@ -1586,15 +1588,36 @@
 		)
 		(uuid "f962e76a-4b4d-40dc-b22f-6860d8f84648")
 	)
-	(text "i2c?\n"
+	(text "IR receiver option"
 		(exclude_from_sim no)
-		(at 76.708 102.108 0)
+		(at 235.712 64.262 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "315af5fd-ecbe-4bc9-908d-21c3b2e52a66")
+		(uuid "456f6d8e-d5c4-4770-afa3-369e29df1a67")
+	)
+	(text "WAKE pullup to VIN!"
+		(exclude_from_sim no)
+		(at 97.536 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "#12")
+		)
+		(uuid "45f3a388-8182-4f3c-b570-0d37e51ec6ab")
+	)
+	(text "Frontpanel connector"
+		(exclude_from_sim no)
+		(at 128.524 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0714947-23a5-483d-aea5-deb43da3da03")
 	)
 	(hierarchical_label "IO4"
 		(shape output)
