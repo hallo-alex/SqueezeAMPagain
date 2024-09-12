@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "3dc62e96-5680-4ba3-90d1-277f9dc4e8b3")
 	(paper "A4")
+	(title_block
+		(title "SqueezeAMP_{again}")
+		(date "2024-08-23")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
@@ -1833,6 +1838,26 @@
 			(type default)
 		)
 		(uuid "fba4da2d-0c57-4524-a770-51ec2fe46e54")
+	)
+	(text_box "\"ESP32-WROVER-E comes with a PCB antenna, and ESP32-WROVER-IE with a connector for an external\nantenna.\""
+		(exclude_from_sim no)
+		(at 134.62 123.19 0)
+		(size 55.88 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+			(href "https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf")
+		)
+		(uuid "7bb8b945-b4e8-42bf-a405-373e93105f81")
 	)
 	(text "MOSI"
 		(exclude_from_sim no)
