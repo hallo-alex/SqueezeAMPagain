@@ -2338,12 +2338,6 @@
 		(uuid "40a29c5a-be8b-45d6-bca2-623c8ecd4f81")
 	)
 	(junction
-		(at 17.78 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42a1401d-ed5a-4b20-9326-9e7ba4dddc85")
-	)
-	(junction
 		(at 266.7 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5948,73 +5942,6 @@
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 17.78 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19d8ee57-9d1c-4d7a-815f-60b6da02c867")
-		(property "Reference" "#PWR03"
-			(at 17.78 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V_{SW}"
-			(at 20.32 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 17.78 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c506c25-e208-4467-b4a4-f9bb22c5bc9f")
-		)
-		(instances
-			(project "SqueezeAMPagain"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)

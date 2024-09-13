@@ -545,6 +545,7 @@
       "Net-(U1-AVDD)": "Supply",
       "Net-(U1-CN)": "Supply",
       "Net-(U1-CP)": "Supply",
+      "Net-(U1-CPVSS)": "Supply",
       "Net-(U1-DVDD_REG)": "Supply",
       "Net-(U5-VI)": "Supply",
       "Net-(U5-VIN)": "Supply",
