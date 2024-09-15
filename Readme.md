@@ -20,6 +20,7 @@ Please check the dev branch for corrected schematics.
     - should not be needed / check if it can benefit from it
   - power management
     - switchable power to TAS
+      - lower standby consumption by 200mW
       - PVDD: currently resets the powersupply when the caps charge 
         - add precharge?
       - 3V3: current squeezelite does not start up correctly if the amp is not powered

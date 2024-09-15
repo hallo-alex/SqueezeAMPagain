@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -534,6 +534,7 @@
       "GND": "Supply",
       "GNDA": "Supply",
       "Net-(D10-A)": "Supply",
+      "Net-(D11-K)": "Supply",
       "Net-(D3-A)": "Supply",
       "Net-(D3-K)": "Supply",
       "Net-(D4-A)": "Supply",
@@ -773,14 +774,6 @@
     [
       "7add08aa-332a-4b28-a3d6-ce8f466a0a0b",
       "esp"
-    ],
-    [
-      "26fa6d25-f20f-4499-8e61-2f475408dc13",
-      "Pi"
-    ],
-    [
-      "e8aa0c29-7d4a-4486-816f-de6795c685f9",
-      "Pico"
     ],
     [
       "ee00a6dc-f977-4055-96a4-c54a9ac88e93",

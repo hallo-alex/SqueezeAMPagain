@@ -972,7 +972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor:L_Radial_D12.0mm_P5+6+7.00mm_Fastron_11P"
+		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRA00040420"
 			(at 113.03 68.58 0)
 			(effects
 				(font

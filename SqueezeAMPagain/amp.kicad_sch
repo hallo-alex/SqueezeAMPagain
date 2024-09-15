@@ -2701,6 +2701,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 144.78) (xy 81.28 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174f1a07-14b4-4b4f-92e0-cfdc35fa58b3")
+	)
+	(wire
+		(pts
 			(xy 257.81 146.05) (xy 257.81 148.59)
 		)
 		(stroke
@@ -7451,71 +7461,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 81.28 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f5a4781-2b34-42da-a53d-007c4a11f650")
-		(property "Reference" "#PWR011"
-			(at 81.28 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 76.962 144.526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 81.28 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5220e0c5-906b-4338-b5de-7c611a9ad696")
-		)
-		(instances
-			(project "SqueezeAMPagain"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 160.02 157.48 0)
 		(unit 1)
@@ -7582,73 +7527,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 22.86 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43ac10f8-0cf6-4c87-b59c-709690235b57")
-		(property "Reference" "#PWR04"
-			(at 22.86 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V_{SW}"
-			(at 25.4 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 22.86 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ea0002d-a9b5-4b51-8073-3ae98561b89a")
-		)
-		(instances
-			(project "SqueezeAMPagain"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 113.03 157.48 0)
 		(unit 1)
@@ -7676,7 +7554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 113.9952 161.29 0)
 			(effects
 				(font
@@ -8149,7 +8027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 207.01 89.408 90)
 			(effects
 				(font
@@ -8228,7 +8106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 39.0652 101.6 0)
 			(effects
 				(font
@@ -8298,7 +8176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 133.35 0)
 			(effects
 				(font
@@ -9325,7 +9203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 24.892 66.04 90)
 			(effects
 				(font
@@ -9926,6 +9804,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 81.28 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2c3b82c-3a54-4c4f-8842-ca55fdc48f34")
+		(property "Reference" "#PWR011"
+			(at 81.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 81.28 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c6d30c0-1652-4d70-bad9-f7b2d48c9fb3")
+		)
+		(instances
+			(project "SqueezeAMPagain"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 247.65 104.14 0)
 		(unit 1)
@@ -10293,7 +10237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 68.2752 130.81 0)
 			(effects
 				(font
@@ -10363,7 +10307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 43.942 66.04 90)
 			(effects
 				(font
@@ -10576,7 +10520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 37.592 39.37 90)
 			(effects
 				(font
@@ -10804,7 +10748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 33.782 66.04 90)
 			(effects
 				(font
@@ -11232,7 +11176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.2552 132.08 0)
 			(effects
 				(font
@@ -11823,6 +11767,72 @@
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 22.86 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e77dc45f-7e27-4851-b29f-ce17fe984ee1")
+		(property "Reference" "#PWR04"
+			(at 22.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 22.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68a5462a-78da-4b45-b095-31e76758fa5a")
+		)
+		(instances
+			(project ""
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
