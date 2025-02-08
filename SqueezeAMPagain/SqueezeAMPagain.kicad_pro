@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.0,
+          "height": 0.75,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -521,33 +521,46 @@
       "/Amp/SPK_B-": "Power",
       "/Amp/SpeakerChannelA+/Amp_out": "Power",
       "/Amp/SpeakerChannelA+/Cboot": "Supply",
+      "/Amp/SpeakerChannelA+/Spk_out": "Power",
       "/Amp/SpeakerChannelA-/Amp_out": "Power",
       "/Amp/SpeakerChannelA-/Cboot": "Supply",
       "/Amp/SpeakerChannelB+/Amp_out": "Power",
       "/Amp/SpeakerChannelB+/Cboot": "Supply",
+      "/Amp/SpeakerChannelB+/Spk_out": "Power",
       "/Amp/SpeakerChannelB-/Amp_out": "Power",
       "/Amp/SpeakerChannelB-/Cboot": "Supply",
+      "/Amp/SpeakerChannelB-/Spk_out": "Power",
       "/Power/V_{supply,plug}": "Supply",
       "/Power/V_{supply}": "Supply",
       "/USB-Uart/D+": "USB",
       "/USB-Uart/D-": "USB",
       "GND": "Supply",
       "GNDA": "Supply",
+      "Net-(D1-A)": "Supply",
       "Net-(D10-A)": "Supply",
       "Net-(D11-K)": "Supply",
+      "Net-(D2-K)": "Supply",
       "Net-(D3-A)": "Supply",
       "Net-(D3-K)": "Supply",
       "Net-(D4-A)": "Supply",
       "Net-(D4-K)": "Supply",
+      "Net-(D6-A)": "Supply",
+      "Net-(D6-K)": "Supply",
+      "Net-(J4-Pin_2)": "Supply",
+      "Net-(J4-Pin_9)": "Supply",
       "Net-(JP10-A)": "Supply",
       "Net-(JP10-B)": "Supply",
+      "Net-(JP13-A)": "Supply",
       "Net-(JP5-A)": "Supply",
       "Net-(JP5-B)": "Supply",
       "Net-(U1-AVDD)": "Supply",
       "Net-(U1-CN)": "Supply",
       "Net-(U1-CP)": "Supply",
+      "Net-(U1-CPVDD)": "Supply",
       "Net-(U1-CPVSS)": "Supply",
+      "Net-(U1-DVDD)": "Supply",
       "Net-(U1-DVDD_REG)": "Supply",
+      "Net-(U4-VI)": "Supply",
       "Net-(U5-VI)": "Supply",
       "Net-(U5-VIN)": "Supply",
       "Net-(U6-VIN)": "Supply",
@@ -745,7 +758,7 @@
   "sheets": [
     [
       "3675160b-d9e5-490e-b506-2a7966e79ed0",
-      "Stammblatt"
+      "Root"
     ],
     [
       "07ac3e8e-f1ad-466e-8093-0e429e520f15",
@@ -786,10 +799,6 @@
     [
       "86167bdd-1d24-4489-95f0-02f70a80611f",
       "USB-Uart"
-    ],
-    [
-      "ebd96d54-3bca-4cd9-8a7f-03e0b2610c15",
-      "X_PSU"
     ]
   ],
   "text_variables": {}

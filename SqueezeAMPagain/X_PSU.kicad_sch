@@ -1158,7 +1158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0eacbfad-f928-4721-91e4-5329fb46f612")
-		(property "Reference" "J10"
+		(property "Reference" "J9"
 			(at 138.43 83.82 0)
 			(effects
 				(font
@@ -1255,7 +1255,7 @@
 		(instances
 			(project ""
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/ebd96d54-3bca-4cd9-8a7f-03e0b2610c15"
-					(reference "J10")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -1271,7 +1271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0a37ecc-4c86-4657-b457-2f4c9d5b6c0e")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0111"
 			(at 101.6 102.87 0)
 			(effects
 				(font
@@ -1321,7 +1321,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/ebd96d54-3bca-4cd9-8a7f-03e0b2610c15"
-					(reference "#PWR0114")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -1337,7 +1337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4cbd4ef-4c18-4523-aa31-2b2c5420d668")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0113"
 			(at 143.51 100.33 0)
 			(effects
 				(font
@@ -1388,7 +1388,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/ebd96d54-3bca-4cd9-8a7f-03e0b2610c15"
-					(reference "#PWR0117")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -1403,7 +1403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8af8c05-042e-45d9-97a7-bfe624d8c625")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0112"
 			(at 129.54 115.57 0)
 			(effects
 				(font
@@ -1453,7 +1453,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/ebd96d54-3bca-4cd9-8a7f-03e0b2610c15"
-					(reference "#PWR0116")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -1468,7 +1468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f24e772a-99fb-4b64-92bc-fece09c44227")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0114"
 			(at 147.32 115.57 0)
 			(effects
 				(font
@@ -1518,7 +1518,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/ebd96d54-3bca-4cd9-8a7f-03e0b2610c15"
-					(reference "#PWR0118")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -1534,7 +1534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd8cd5d6-4b6d-4e3c-a2e0-7aa430fd5b57")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0115"
 			(at 179.07 102.87 0)
 			(effects
 				(font
@@ -1584,7 +1584,7 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/ebd96d54-3bca-4cd9-8a7f-03e0b2610c15"
-					(reference "#PWR0120")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)

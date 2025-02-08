@@ -449,10 +449,22 @@
 		(uuid "a76a3a3e-05cd-471b-a7b4-85a37685df48")
 	)
 	(junction
+		(at 123.19 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9883013-f2b5-45f9-854f-4c94db2f7d71")
+	)
+	(junction
 		(at 99.06 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9907eb1-b2ea-44ee-bb5e-013c5102c98b")
+	)
+	(junction
+		(at 102.87 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee4e204e-6760-4613-b2c5-46f4863e7fb0")
 	)
 	(junction
 		(at 152.4 68.58)
@@ -462,13 +474,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 68.58) (xy 109.22 68.58)
+			(xy 99.06 68.58) (xy 102.87 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d0d7da9-3ed1-4d1b-845b-2c1c5dabbece")
+	)
+	(wire
+		(pts
+			(xy 109.22 77.47) (xy 102.87 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e85f51a-7a4d-435d-9659-69942e024e1d")
 	)
 	(wire
 		(pts
@@ -482,6 +504,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 68.58) (xy 138.43 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2092e9-93e6-432c-8ce2-ee2b6504c8ea")
+	)
+	(wire
+		(pts
 			(xy 138.43 85.09) (xy 152.4 85.09)
 		)
 		(stroke
@@ -492,7 +524,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 68.58) (xy 138.43 68.58)
+			(xy 116.84 68.58) (xy 123.19 68.58)
 		)
 		(stroke
 			(width 0)
@@ -522,6 +554,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 77.47) (xy 123.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e26e0a-864e-4a3e-9b95-5a58b4aec922")
+	)
+	(wire
+		(pts
 			(xy 83.82 68.58) (xy 99.06 68.58)
 		)
 		(stroke
@@ -539,6 +581,26 @@
 			(type default)
 		)
 		(uuid "9347dbe4-fc63-4e56-9e74-e19dbe434780")
+	)
+	(wire
+		(pts
+			(xy 102.87 68.58) (xy 109.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17004f6-85c5-47e2-ad75-ee9b0b258649")
+	)
+	(wire
+		(pts
+			(xy 102.87 77.47) (xy 102.87 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44184bd-4c85-4a06-a9a8-2b05eb44ac92")
 	)
 	(wire
 		(pts
@@ -602,6 +664,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 77.47) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27f4255-283e-449e-8742-cf73ac130464")
+	)
+	(wire
+		(pts
 			(xy 99.06 53.34) (xy 99.06 68.58)
 		)
 		(stroke
@@ -662,7 +734,6 @@
 	(hierarchical_label "Amp_out"
 		(shape input)
 		(at 83.82 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -674,7 +745,6 @@
 	(hierarchical_label "Spk_out"
 		(shape output)
 		(at 172.72 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -686,7 +756,6 @@
 	(hierarchical_label "Cboot"
 		(shape input)
 		(at 74.93 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -774,7 +843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40dd0827-dff9-46a4-a2ed-f39f833a1be7")
-		(property "Reference" "C50"
+		(property "Reference" "C52"
 			(at 102.87 48.2599 0)
 			(effects
 				(font
@@ -837,19 +906,19 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
-					(reference "C50")
+					(reference "C52")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
-					(reference "C46")
+					(reference "C48")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
-					(reference "C42")
+					(reference "C44")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
-					(reference "C38")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -865,7 +934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a13d804-cca6-43bb-8cd2-5fae26c24a6c")
-		(property "Reference" "C51"
+		(property "Reference" "C53"
 			(at 142.24 77.4699 0)
 			(effects
 				(font
@@ -928,19 +997,108 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
-					(reference "C51")
+					(reference "C53")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
-					(reference "C47")
+					(reference "C49")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
-					(reference "C43")
+					(reference "C45")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
-					(reference "C39")
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Iron")
+		(at 113.03 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "571b72dd-e177-43c9-87cc-fbca8c8ea99f")
+		(property "Reference" "L12"
+			(at 113.03 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uH/6.0A"
+			(at 113.03 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_THT:L_Radial_D8.7mm_P5.00mm_Fastron_07HCP"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with iron core"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr#" "7447471047"
+			(at 113.03 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8cdabe60-b5be-484b-9aac-4dc8b6342519")
+		)
+		(pin "1"
+			(uuid "2b42d747-8633-48fa-a5a2-929f204f492a")
+		)
+		(instances
+			(project "SqueezeAMPagain"
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
+					(reference "L12")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
+					(reference "L9")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
+					(reference "L6")
+					(unit 1)
+				)
+				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -956,7 +1114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8641dcde-c4fa-4bce-9166-d6e76eae8801")
-		(property "Reference" "L4"
+		(property "Reference" "L11"
 			(at 113.03 62.23 90)
 			(effects
 				(font
@@ -1017,19 +1175,19 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
-					(reference "L4")
+					(reference "L11")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
-					(reference "L3")
+					(reference "L8")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
-					(reference "L2")
+					(reference "L5")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -1045,7 +1203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e9ebb5a-a051-49b7-a653-3ff523f09c4e")
-		(property "Reference" "C52"
+		(property "Reference" "C54"
 			(at 156.21 77.4699 0)
 			(effects
 				(font
@@ -1108,19 +1266,19 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
-					(reference "C52")
+					(reference "C54")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
-					(reference "C48")
+					(reference "C50")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
-					(reference "C44")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
-					(reference "C40")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -1136,7 +1294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a20cc3d8-5d73-4fde-b8ce-3ab7931e8e30")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR060"
 			(at 163.83 95.25 0)
 			(effects
 				(font
@@ -1186,19 +1344,19 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
-					(reference "#PWR053")
+					(reference "#PWR060")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
-					(reference "#PWR052")
+					(reference "#PWR059")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
-					(reference "#PWR051")
+					(reference "#PWR058")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
-					(reference "#PWR050")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -1214,7 +1372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff975667-85b6-42a9-9d4a-b058524a0d68")
-		(property "Reference" "C53"
+		(property "Reference" "C55"
 			(at 167.64 77.4699 0)
 			(effects
 				(font
@@ -1268,19 +1426,19 @@
 		(instances
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/1a70e9ca-2fce-4be6-ad4f-c474a7d27ee5"
-					(reference "C53")
+					(reference "C55")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/290414a9-18d7-4052-b974-0c785b30260e"
-					(reference "C49")
+					(reference "C51")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/4acebabc-8aa3-4173-b628-7f3599117675"
-					(reference "C45")
+					(reference "C47")
 					(unit 1)
 				)
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/07ac3e8e-f1ad-466e-8093-0e429e520f15/d3a3f54b-80d4-46f8-a90a-7ee70d692615"
-					(reference "C41")
+					(reference "C43")
 					(unit 1)
 				)
 			)

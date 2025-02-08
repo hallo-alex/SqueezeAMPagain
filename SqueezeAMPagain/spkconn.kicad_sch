@@ -214,7 +214,6 @@
 	(hierarchical_label "A-"
 		(shape input)
 		(at 105.41 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -226,7 +225,6 @@
 	(hierarchical_label "B-"
 		(shape input)
 		(at 105.41 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -238,7 +236,6 @@
 	(hierarchical_label "A+"
 		(shape input)
 		(at 105.41 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -250,7 +247,6 @@
 	(hierarchical_label "B+"
 		(shape input)
 		(at 105.41 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
