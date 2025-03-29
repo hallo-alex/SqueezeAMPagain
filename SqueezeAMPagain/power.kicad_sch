@@ -3226,12 +3226,6 @@
 		(uuid "30977ef1-767b-4efd-bd3c-103877227efc")
 	)
 	(junction
-		(at 99.06 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43c0da14-24ca-4407-a534-9ccbfdc6cc7b")
-	)
-	(junction
 		(at 186.69 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3551,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 118.11) (xy 113.03 118.11)
+			(xy 93.98 118.11) (xy 113.03 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4018,16 +4012,6 @@
 			(type default)
 		)
 		(uuid "4b446794-38d9-43a0-9b74-d7c0c0c1760b")
-	)
-	(wire
-		(pts
-			(xy 99.06 118.11) (xy 99.06 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c0ab1cd-5c7d-48cc-a996-45d3c277de7d")
 	)
 	(wire
 		(pts
@@ -4781,16 +4765,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 118.11) (xy 99.06 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b68d306f-4a8a-42b0-8afe-47d8dca8631c")
-	)
-	(wire
-		(pts
 			(xy 173.99 63.5) (xy 182.88 63.5)
 		)
 		(stroke
@@ -5058,16 +5032,6 @@
 			(type default)
 		)
 		(uuid "dc72a88e-c83f-4d4a-96af-5b177820c15f")
-	)
-	(wire
-		(pts
-			(xy 99.06 138.43) (xy 99.06 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcd26e58-88f6-4735-881c-ae243ffcb204")
 	)
 	(wire
 		(pts
@@ -6906,72 +6870,6 @@
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/0f57a469-41de-4f06-810e-cfdb6f5b9e50"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33fcd917-600e-40f1-9c49-1ec1c529aba0")
-		(property "Reference" "#PWR088"
-			(at 99.06 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db90b566-3916-4502-94ff-5da1f370910f")
-		)
-		(instances
-			(project "SqueezeAMPagain"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/0f57a469-41de-4f06-810e-cfdb6f5b9e50"
-					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -9328,76 +9226,6 @@
 			(project "SqueezeAMPagain"
 				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/0f57a469-41de-4f06-810e-cfdb6f5b9e50"
 					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bca46d9c-0e6a-4d83-83a8-bfefe84729e1")
-		(property "Reference" "C65"
-			(at 102.87 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u/25V"
-			(at 102.87 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 100.0252 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2ab12b63-686a-4603-86bf-2e7b64c27ab3")
-		)
-		(pin "1"
-			(uuid "39a7c452-a322-4192-a875-fb8f556a5645")
-		)
-		(instances
-			(project "SqueezeAMPagain"
-				(path "/3675160b-d9e5-490e-b506-2a7966e79ed0/0f57a469-41de-4f06-810e-cfdb6f5b9e50"
-					(reference "C65")
 					(unit 1)
 				)
 			)
