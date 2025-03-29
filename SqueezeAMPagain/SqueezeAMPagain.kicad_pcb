@@ -940,7 +940,7 @@
 		(descr "Generic Phoenix Contact connector footprint for: MC_1,5/2-G-3.5; number of pins: 02; pin pitch: 3.50mm; Angled || order number: 1844210 8A 160V")
 		(tags "phoenix_contact connector MC_01x02_G_3.5mm")
 		(property "Reference" "J2"
-			(at -3.35 -1.7 180)
+			(at -2.95 -2.1 180)
 			(layer "F.SilkS")
 			(uuid "444d7577-48e2-448c-b15f-3f26791f79a3")
 			(effects
@@ -3360,8 +3360,9 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at -1.91 0 90)
+			(at 1.6 -1.2 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "579f5365-6208-4e96-9328-e1c45705acdb")
 			(effects
 				(font
@@ -14524,7 +14525,7 @@
 		(descr "Generic Phoenix Contact connector footprint for: MC_1,5/2-G-3.5; number of pins: 02; pin pitch: 3.50mm; Angled || order number: 1844210 8A 160V")
 		(tags "phoenix_contact connector MC_01x02_G_3.5mm")
 		(property "Reference" "J1"
-			(at 1.75 -3 180)
+			(at -2.3 -2.3 180)
 			(layer "F.SilkS")
 			(uuid "720563d4-f874-4ee6-b760-7d7bcfa8c1db")
 			(effects
@@ -14876,7 +14877,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP13"
-			(at -3.4 -1.8 0)
+			(at 3.4 -1 90)
 			(layer "F.SilkS")
 			(uuid "aabcdb1e-7fdb-4530-8f79-ca4bc600db33")
 			(effects
@@ -22981,7 +22982,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP11"
-			(at 0.85 -1.6 180)
+			(at 1.85 -0.4 -90)
 			(layer "F.SilkS")
 			(uuid "ce39bf5e-7ddc-44dd-a3c2-f008379e191e")
 			(effects
@@ -26657,7 +26658,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D7"
-			(at -3.05 -0.9 180)
+			(at -0.5375 1.910974 -90)
 			(layer "F.SilkS")
 			(uuid "b9914816-9f6a-4a48-a505-60a1915e7990")
 			(effects
@@ -54850,7 +54851,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R25"
-			(at 2.35 -0.21 0)
+			(at 0.11 -1 0)
 			(layer "F.SilkS")
 			(uuid "a764ba19-1f69-4eae-8d90-f6703cfb2bfb")
 			(effects
@@ -59793,6 +59794,16 @@
 		(uuid "0e65b93a-14fd-4f80-81f6-1ebee9047d28")
 	)
 	(gr_line
+		(start 124.4 73.2)
+		(end 123.4 73.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "105659c7-171b-433b-8966-80c51f478ac3")
+	)
+	(gr_line
 		(start 150 60.6)
 		(end 150.2 60.4)
 		(stroke
@@ -59823,6 +59834,16 @@
 		(uuid "6e9a5404-c9a2-408f-bf31-07d115523e12")
 	)
 	(gr_line
+		(start 123.4 73.2)
+		(end 123 73.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c5ca6800-ce77-4143-bde3-36dd3327c5ae")
+	)
+	(gr_line
 		(start 147 60.6)
 		(end 150 60.6)
 		(stroke
@@ -59842,17 +59863,97 @@
 		(layer "F.SilkS")
 		(uuid "fdedf954-9911-4392-8745-30b7cfb64970")
 	)
-	(gr_rect
-		(start 58 45.5)
-		(end 158 95.5)
+	(gr_line
+		(start 154.5 95.5)
+		(end 61.5 95.5)
 		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "5c1a66d7-0cad-4137-a480-b80d95ef8303")
+		(uuid "06b5980b-fec9-4a5d-bfee-06ffa2eb53bb")
+	)
+	(gr_arc
+		(start 61.5 95.5)
+		(mid 59.025126 94.474874)
+		(end 58 92)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1af40afd-b490-47d8-803e-a23deaaebd67")
+	)
+	(gr_arc
+		(start 154.5 45.5)
+		(mid 156.974874 46.525126)
+		(end 158 49)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "77247c27-2f4d-4b25-bb74-b77609c4a5bb")
+	)
+	(gr_arc
+		(start 58 49)
+		(mid 59.025126 46.525126)
+		(end 61.5 45.5)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "79697efe-7217-4e8d-99da-9c7b882ee504")
+	)
+	(gr_line
+		(start 61.5 45.5)
+		(end 154.5 45.5)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "986ab2c0-d107-41ba-9027-4ea5c80744d2")
+	)
+	(gr_line
+		(start 158 49)
+		(end 158 92)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9d599e24-5407-41a4-971a-69db65bfb8f6")
+	)
+	(gr_line
+		(start 58 92)
+		(end 58 49)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dff6e12d-2a0f-4f24-987f-52c63643d36d")
+	)
+	(gr_arc
+		(start 158 92)
+		(mid 156.974874 94.474874)
+		(end 154.5 95.5)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f3069bb1-8671-48c2-aa12-87786f2b2015")
 	)
 	(gr_line
 		(start 123 44.25)
@@ -59875,7 +59976,7 @@
 		(uuid "e0d46ccf-12b0-46fc-8705-2d379e640f5a")
 	)
 	(gr_text "B+"
-		(at 93 49.4 0)
+		(at 93 54.4 0)
 		(layer "B.SilkS")
 		(uuid "0e0908e4-627d-4d2a-a9c8-42d30ac09663")
 		(effects
@@ -59888,7 +59989,7 @@
 		)
 	)
 	(gr_text "PGND"
-		(at 105.5 73 0)
+		(at 90.8 75.4 0)
 		(layer "B.SilkS")
 		(uuid "13ef1636-bb3d-4090-8496-429b3b97aa2d")
 		(effects
@@ -59925,7 +60026,7 @@
 		)
 	)
 	(gr_text "GND_{supply}"
-		(at 119.8 48.4 0)
+		(at 121.6 54.2 0)
 		(layer "B.SilkS")
 		(uuid "24c445b6-5855-45ec-a32c-93a9a4f185ea")
 		(effects
@@ -60021,18 +60122,6 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "V_{USB}"
-		(at 153.4 83.4 -90)
-		(layer "B.SilkS")
-		(uuid "6da5ac96-3089-44d0-958a-f57efb5c1480")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom mirror)
-		)
-	)
 	(gr_text "RESET"
 		(at 105.35 165.45 270)
 		(layer "B.SilkS")
@@ -60046,7 +60135,7 @@
 		)
 	)
 	(gr_text "A+"
-		(at 73.5 49 0)
+		(at 74 54.2 0)
 		(layer "B.SilkS")
 		(uuid "79562938-6a25-4532-a003-6e715fb62a5f")
 		(effects
@@ -60108,7 +60197,7 @@
 		)
 	)
 	(gr_text "B-"
-		(at 88.8 49.4 0)
+		(at 88.8 54.6 0)
 		(layer "B.SilkS")
 		(uuid "d0a535e5-0afc-442a-bbea-748a67708ad1")
 		(effects
@@ -60121,7 +60210,7 @@
 		)
 	)
 	(gr_text "A-"
-		(at 69.5 49 0)
+		(at 70 54.2 0)
 		(layer "B.SilkS")
 		(uuid "d60e6de7-b39a-44f8-9995-f78b5cb2b6ca")
 		(effects
@@ -60206,7 +60295,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 122.2 70.6 0)
+		(at 125.8 71.2 90)
 		(layer "F.SilkS")
 		(uuid "099d2e5d-52d0-47cb-bec9-3fc433dc08b0")
 		(effects
@@ -60351,11 +60440,11 @@
 		(layer "User.1")
 		(uuid "11cced52-dd21-402f-8884-b2ab5d53326c")
 		(pts
-			(xy 158 45.5) (xy 106.2 45.5)
+			(xy 158 45.5) (xy 105 45.5)
 		)
 		(height 25.8)
-		(gr_text "51,8 mm"
-			(at 132.1 18.55 0)
+		(gr_text "53,0 mm"
+			(at 131.5 18.55 0)
 			(layer "User.1")
 			(uuid "11cced52-dd21-402f-8884-b2ab5d53326c")
 			(effects
@@ -60371,39 +60460,6 @@
 			(units 3)
 			(units_format 1)
 			(precision 1)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "User.1")
-		(uuid "162a8b58-3edd-4eaa-b471-2e08bbab2626")
-		(pts
-			(xy 108.3 81) (xy 108.3 104)
-		)
-		(height -68.2)
-		(gr_text "23,0000 mm"
-			(at 175.35 92.5 90)
-			(layer "User.1")
-			(uuid "162a8b58-3edd-4eaa-b471-2e08bbab2626")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
 		)
 		(style
 			(thickness 0.1)
@@ -60442,6 +60498,72 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "1cad0320-e22a-432c-b164-e2fcf22963c2")
+		(pts
+			(xy 58 45.5) (xy 84.8 45.5)
+		)
+		(height -14.7)
+		(gr_text "26,8000 mm"
+			(at 71.4 29.65 0)
+			(layer "User.1")
+			(uuid "1cad0320-e22a-432c-b164-e2fcf22963c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "304a353d-643d-4e62-b1f1-4ae3c5f1a865")
+		(pts
+			(xy 58 45.5) (xy 94.3 45.5)
+		)
+		(height -19.6)
+		(gr_text "36,3000 mm"
+			(at 76.15 24.75 0)
+			(layer "User.1")
+			(uuid "304a353d-643d-4e62-b1f1-4ae3c5f1a865")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
@@ -60514,6 +60636,39 @@
 	(dimension
 		(type aligned)
 		(layer "User.1")
+		(uuid "591e3286-6f4e-4a24-b781-aa16b8e49a6c")
+		(pts
+			(xy 81.4 85.5) (xy 58 85.5)
+		)
+		(height -18.1)
+		(gr_text "23,4 mm"
+			(at 69.7 102.45 0)
+			(layer "User.1")
+			(uuid "591e3286-6f4e-4a24-b781-aa16b8e49a6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
 		(uuid "6b464f0a-498b-4b65-b7d9-d59a7b204c26")
 		(pts
 			(xy 58 45.5) (xy 58 95.5)
@@ -60549,11 +60704,11 @@
 		(layer "User.1")
 		(uuid "7540b4e0-bdb9-452b-b450-18eb5f8cb3b1")
 		(pts
-			(xy 158 45.5) (xy 115.4 45.5)
+			(xy 158 45.5) (xy 115 45.5)
 		)
 		(height 19.3)
-		(gr_text "42,6 mm"
-			(at 136.7 25.05 0)
+		(gr_text "43,0 mm"
+			(at 136.5 25.05 0)
 			(layer "User.1")
 			(uuid "7540b4e0-bdb9-452b-b450-18eb5f8cb3b1")
 			(effects
@@ -60582,11 +60737,11 @@
 		(layer "User.1")
 		(uuid "758e885c-1657-485c-b986-cab44ab6b1a1")
 		(pts
-			(xy 158 45.5) (xy 125.465 45.6)
+			(xy 158 45.5) (xy 124.5 45.5)
 		)
 		(height 14.3)
-		(gr_text "32,5 mm"
-			(at 141.685013 30.100073 0.1761045)
+		(gr_text "33,5 mm"
+			(at 141.25 30.05 0)
 			(layer "User.1")
 			(uuid "758e885c-1657-485c-b986-cab44ab6b1a1")
 			(effects
@@ -60615,11 +60770,11 @@
 		(layer "User.1")
 		(uuid "8f599abd-d305-4624-af24-5adaf720b73c")
 		(pts
-			(xy 158 45.5) (xy 120.8 45.5)
+			(xy 158 45.5) (xy 120.3 45.5)
 		)
 		(height 16.7)
-		(gr_text "37,2 mm"
-			(at 139.4 27.65 0)
+		(gr_text "37,7 mm"
+			(at 139.15 27.65 0)
 			(layer "User.1")
 			(uuid "8f599abd-d305-4624-af24-5adaf720b73c")
 			(effects
@@ -60646,13 +60801,46 @@
 	(dimension
 		(type aligned)
 		(layer "User.1")
+		(uuid "9fa75e30-7c74-4c6a-8f36-069f1fd617e9")
+		(pts
+			(xy 81.892086 85.628058) (xy 81.992086 64.628058)
+		)
+		(height -26.892391)
+		(gr_text "21,0 mm"
+			(at 53.900013 74.994524 89.72716502)
+			(layer "User.1")
+			(uuid "9fa75e30-7c74-4c6a-8f36-069f1fd617e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
 		(uuid "aec2ab13-a23d-4466-9ecb-88c7e63e6892")
 		(pts
-			(xy 58 45.5) (xy 66.4 45.5)
+			(xy 58 45.5) (xy 66 45.5)
 		)
 		(height -7.2)
-		(gr_text "8,4 mm"
-			(at 62.2 37.15 0)
+		(gr_text "8,0 mm"
+			(at 62 37.15 0)
 			(layer "User.1")
 			(uuid "aec2ab13-a23d-4466-9ecb-88c7e63e6892")
 			(effects
@@ -60714,11 +60902,11 @@
 		(layer "User.1")
 		(uuid "bfd70c1b-335f-4466-9635-276991d3c791")
 		(pts
-			(xy 58 45.5) (xy 75 45.5)
+			(xy 58 45.5) (xy 75.5 45.5)
 		)
 		(height -10.7)
-		(gr_text "17,0 mm"
-			(at 66.5 33.65 0)
+		(gr_text "17,5 mm"
+			(at 66.75 33.65 0)
 			(layer "User.1")
 			(uuid "bfd70c1b-335f-4466-9635-276991d3c791")
 			(effects
@@ -60745,13 +60933,46 @@
 	(dimension
 		(type aligned)
 		(layer "User.1")
+		(uuid "c8a3b2d0-0a2e-45d3-83b3-aad51aa93b3e")
+		(pts
+			(xy 81.4 85.5) (xy 81.4 95.5)
+		)
+		(height 26.4)
+		(gr_text "10,0 mm"
+			(at 53.85 90.5 90)
+			(layer "User.1")
+			(uuid "c8a3b2d0-0a2e-45d3-83b3-aad51aa93b3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
 		(uuid "cf34b8b9-4a04-44b6-8c66-149cf186b679")
 		(pts
-			(xy 158 45.5) (xy 112.2 45.5)
+			(xy 158 45.5) (xy 110.7 45.5)
 		)
 		(height 23)
-		(gr_text "45,8 mm"
-			(at 135.1 21.35 0)
+		(gr_text "47,3 mm"
+			(at 134.35 21.35 0)
 			(layer "User.1")
 			(uuid "cf34b8b9-4a04-44b6-8c66-149cf186b679")
 			(effects
@@ -60780,11 +61001,11 @@
 		(layer "User.1")
 		(uuid "d52d687c-6075-4b29-a680-9e3539563cc3")
 		(pts
-			(xy 158 45.5) (xy 132.985 45.6)
+			(xy 158 45.5) (xy 132.5 45.5)
 		)
 		(height 11.5)
-		(gr_text "25,0 mm"
-			(at 145.441931 32.900101 0.2290444705)
+		(gr_text "25,5 mm"
+			(at 145.25 32.85 0)
 			(layer "User.1")
 			(uuid "d52d687c-6075-4b29-a680-9e3539563cc3")
 			(effects
@@ -79403,6 +79624,15 @@
 				(xy 142.875863 63.165515) (xy 142.875855 63.165523) (xy 142.875861 63.165516) (xy 142.828076 63.122132)
 				(xy 142.791674 63.062494) (xy 142.793292 62.992644) (xy 142.823744 62.942647) (xy 143.700825 62.065566)
 			)
+		)
+	)
+	(group ""
+		(uuid "01c60065-ad8d-4303-8ec3-bdceff195fa5")
+		(locked yes)
+		(members "06b5980b-fec9-4a5d-bfee-06ffa2eb53bb" "1af40afd-b490-47d8-803e-a23deaaebd67"
+			"77247c27-2f4d-4b25-bb74-b77609c4a5bb" "79697efe-7217-4e8d-99da-9c7b882ee504"
+			"986ab2c0-d107-41ba-9027-4ea5c80744d2" "9d599e24-5407-41a4-971a-69db65bfb8f6"
+			"dff6e12d-2a0f-4f24-987f-52c63643d36d" "f3069bb1-8671-48c2-aa12-87786f2b2015"
 		)
 	)
 	(generated
