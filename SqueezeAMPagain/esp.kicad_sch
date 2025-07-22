@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "3dc62e96-5680-4ba3-90d1-277f9dc4e8b3")
 	(paper "A4")
 	(title_block
@@ -104,8 +104,8 @@
 					)
 				)
 				(rectangle
-					(start -0.254 -12.7)
-					(end 0.254 -11.684)
+					(start -0.254 12.7)
+					(end 0.254 11.684)
 					(stroke
 						(width 0)
 						(type default)
@@ -115,8 +115,8 @@
 					)
 				)
 				(rectangle
-					(start -0.254 12.7)
-					(end 0.254 11.684)
+					(start -0.254 -12.7)
+					(end 0.254 -11.684)
 					(stroke
 						(width 0)
 						(type default)
@@ -137,8 +137,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 -2.794)
-					(end 9.144 -2.286)
+					(start 10.16 7.874)
+					(end 9.144 7.366)
 					(stroke
 						(width 0)
 						(type default)
@@ -159,8 +159,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
+					(start 10.16 -2.794)
+					(end 9.144 -2.286)
 					(stroke
 						(width 0)
 						(type default)
@@ -182,135 +182,10 @@
 						(type none)
 					)
 				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VTref"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "SWDIO/TMS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "SWCLK/TCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "SWO/TDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at -10.16 0 0)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "KEY"
 						(effects
 							(font
@@ -319,24 +194,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "NC/TDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -362,10 +219,158 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VTref"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "SWCLK/TCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "SWDIO/TMS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "SWO/TDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "NC/TDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -438,7 +443,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -450,7 +455,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -499,9 +504,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -620,6 +628,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "esp32:ESP32-WROVER-E"
 			(pin_names
@@ -704,17 +713,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -22.86 90)
+				(pin input line
+					(at -35.56 17.78 0)
 					(length 2.54)
-					(name "GND"
+					(name "EN/CHIP_PU"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -723,16 +732,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -12.7 180)
+					(at -35.56 12.7 0)
 					(length 2.54)
-					(name "DAC_1/ADC2_CH8/GPIO25"
+					(name "32K_XP/GPIO32/ADC1_CH4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -741,16 +750,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -15.24 180)
+					(at -35.56 10.16 0)
 					(length 2.54)
-					(name "DAC_2/ADC2_CH9/GPIO26"
+					(name "32K_XN/GPIO33/ADC1_CH5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -759,16 +768,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 -17.78 180)
+					(at -35.56 5.08 0)
 					(length 2.54)
-					(name "ADC2_CH7/GPIO27"
+					(name "MTDI/GPIO12/ADC2_CH5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -35.56 2.54 0)
+					(length 2.54)
+					(name "MTCK/GPIO13/ADC2_CH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -795,16 +822,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -35.56 5.08 0)
+					(at -35.56 -2.54 0)
 					(length 2.54)
-					(name "MTDI/GPIO12/ADC2_CH5"
+					(name "MTDO/GPIO15/ADC2_CH3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -812,17 +839,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 2.54) hide
-					(name "GND"
+				(pin input line
+					(at -35.56 -7.62 0)
+					(length 2.54)
+					(name "GPIO34/ADC1_CH6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -830,17 +857,53 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -35.56 2.54 0)
+				(pin input line
+					(at -35.56 -10.16 0)
 					(length 2.54)
-					(name "MTCK/GPIO13/ADC2_CH4"
+					(name "GPIO35/ADC1_CH7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -35.56 -12.7 0)
+					(length 2.54)
+					(name "SENSOR_VP/GPIO36/ADC1_CH0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -35.56 -15.24 0)
+					(length 2.54)
+					(name "SENSOR_VN/GPIO39/ADC1_CH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -866,17 +929,73 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -35.56 -2.54 0)
+				(pin power_in line
+					(at 0 -22.86 90)
 					(length 2.54)
-					(name "MTDO/GPIO15/ADC2_CH3"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "23"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -22.86 90)
+					(length 2.54)
+					(name "GND_THERMAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -885,16 +1004,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 7.62 180)
+					(at 35.56 17.78 180)
 					(length 2.54)
-					(name "ADC2_CH2/GPIO2"
+					(name "U0TXD/GPIO1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "24"
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 15.24 180)
+					(length 2.54)
+					(name "U0RXD/GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -913,6 +1050,24 @@
 						)
 					)
 					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 7.62 180)
+					(length 2.54)
+					(name "ADC2_CH2/GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -949,24 +1104,6 @@
 						)
 					)
 					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -35.56 17.78 0)
-					(length 2.54)
-					(name "EN/CHIP_PU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1029,42 +1166,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 15.24 180)
-					(length 2.54)
-					(name "U0RXD/GPIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 35.56 17.78 180)
-					(length 2.54)
-					(name "U0TXD/GPIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 35.56 -7.62 180)
 					(length 2.54)
 					(name "GPIO22"
@@ -1100,107 +1201,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -22.86 90)
+				(pin bidirectional line
+					(at 35.56 -12.7 180)
 					(length 2.54)
-					(name "GND_THERMAL"
+					(name "DAC_1/ADC2_CH8/GPIO25"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -35.56 -12.7 0)
-					(length 2.54)
-					(name "SENSOR_VP/GPIO36/ADC1_CH0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -35.56 -15.24 0)
-					(length 2.54)
-					(name "SENSOR_VN/GPIO39/ADC1_CH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -35.56 -7.62 0)
-					(length 2.54)
-					(name "GPIO34/ADC1_CH6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -35.56 -10.16 0)
-					(length 2.54)
-					(name "GPIO35/ADC1_CH7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1209,16 +1220,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -35.56 12.7 0)
+					(at 35.56 -15.24 180)
 					(length 2.54)
-					(name "32K_XP/GPIO32/ADC1_CH4"
+					(name "DAC_2/ADC2_CH9/GPIO26"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1227,16 +1238,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -35.56 10.16 0)
+					(at 35.56 -17.78 180)
 					(length 2.54)
-					(name "32K_XN/GPIO33/ADC1_CH5"
+					(name "ADC2_CH7/GPIO27"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1245,12 +1256,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1322,7 +1338,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1334,7 +1350,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1365,12 +1381,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1461,7 +1482,69 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "MOSI"
+		(exclude_from_sim no)
+		(at 211.074 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14ce04cc-a19d-473c-b919-5e0b698f371f")
+	)
+	(text "SCLK"
+		(exclude_from_sim no)
+		(at 210.82 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41dda4b2-f1e0-41b2-a21a-b0c143daf622")
+	)
+	(text "CS"
+		(exclude_from_sim no)
+		(at 209.804 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ddac891-2c21-4e60-8d0e-b9384ffb79c2")
+	)
+	(text "MISO"
+		(exclude_from_sim no)
+		(at 210.82 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8cb0893-ba04-4cee-a378-2f294132a7c8")
+	)
+	(text_box "\"ESP32-WROVER-E comes with a PCB antenna, and ESP32-WROVER-IE with a connector for an external\nantenna.\""
+		(exclude_from_sim no)
+		(at 134.62 123.19 0)
+		(size 55.88 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+			(href "https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf")
+		)
+		(uuid "7bb8b945-b4e8-42bf-a405-373e93105f81")
 	)
 	(junction
 		(at 229.87 77.47)
@@ -1950,66 +2033,6 @@
 			(type default)
 		)
 		(uuid "fba4da2d-0c57-4524-a770-51ec2fe46e54")
-	)
-	(text_box "\"ESP32-WROVER-E comes with a PCB antenna, and ESP32-WROVER-IE with a connector for an external\nantenna.\""
-		(exclude_from_sim no)
-		(at 134.62 123.19 0)
-		(size 55.88 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-			(href "https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf")
-		)
-		(uuid "7bb8b945-b4e8-42bf-a405-373e93105f81")
-	)
-	(text "MOSI"
-		(exclude_from_sim no)
-		(at 211.074 97.282 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "14ce04cc-a19d-473c-b919-5e0b698f371f")
-	)
-	(text "SCLK"
-		(exclude_from_sim no)
-		(at 210.82 86.868 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "41dda4b2-f1e0-41b2-a21a-b0c143daf622")
-	)
-	(text "CS"
-		(exclude_from_sim no)
-		(at 209.804 84.328 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8ddac891-2c21-4e60-8d0e-b9384ffb79c2")
-	)
-	(text "MISO"
-		(exclude_from_sim no)
-		(at 210.82 89.408 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c8cb0893-ba04-4cee-a378-2f294132a7c8")
 	)
 	(label "EN{slash}~{RESET}"
 		(at 111.76 69.85 0)

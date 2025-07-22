@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7c3a93f4-3029-4c14-b0e8-ad1e05146103")
 	(paper "A4")
 	(title_block
@@ -11,7 +11,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -84,7 +86,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -96,7 +98,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -145,11 +147,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L_Iron"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -216,8 +223,32 @@
 			)
 			(symbol "L_Iron_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
 					(end 0 -1.27)
 					(stroke
 						(width 0)
@@ -229,8 +260,8 @@
 				)
 				(arc
 					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -255,30 +286,6 @@
 					(pts
 						(xy 1.524 -2.54) (xy 1.524 2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -326,12 +333,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -422,7 +434,28 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "\nSuitable inductors for more Power:\nd ≤ 12mm, Grid 5mm\n\n- WE 7447471047  <- shielded\n\n- Fastron 07HCP-4R7M-50 <- only 4A\n"
+		(exclude_from_sim yes)
+		(at 73.66 83.82 0)
+		(size 44.45 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "debd4ce2-473d-4729-af64-a3293355bceb")
 	)
 	(junction
 		(at 163.83 85.09)
@@ -712,25 +745,6 @@
 		)
 		(uuid "fc883f2c-8f42-4fd4-8201-12402ecdf6e2")
 	)
-	(text_box "Suitable inductors:\nd ≤ 12mm, Grid 5mm\n\n- WE 7447471047  <- shielded\n\n- Fastron 07HCP-4R7M-50 <- only 4A\n"
-		(exclude_from_sim yes)
-		(at 73.66 83.82 0)
-		(size 44.45 17.78)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "debd4ce2-473d-4729-af64-a3293355bceb")
-	)
 	(hierarchical_label "Amp_out"
 		(shape input)
 		(at 83.82 68.58 180)
@@ -843,7 +857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40dd0827-dff9-46a4-a2ed-f39f833a1be7")
-		(property "Reference" "C52"
+		(property "Reference" "C40"
 			(at 102.87 48.2599 0)
 			(effects
 				(font
@@ -934,7 +948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a13d804-cca6-43bb-8cd2-5fae26c24a6c")
-		(property "Reference" "C53"
+		(property "Reference" "C41"
 			(at 142.24 77.4699 0)
 			(effects
 				(font
@@ -1025,7 +1039,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "571b72dd-e177-43c9-87cc-fbca8c8ea99f")
-		(property "Reference" "L12"
+		(property "Reference" "L3"
 			(at 113.03 71.12 90)
 			(effects
 				(font
@@ -1114,7 +1128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8641dcde-c4fa-4bce-9166-d6e76eae8801")
-		(property "Reference" "L11"
+		(property "Reference" "L2"
 			(at 113.03 62.23 90)
 			(effects
 				(font
@@ -1122,7 +1136,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH/6.0A"
+		(property "Value" "4.7uH"
 			(at 113.03 64.77 90)
 			(effects
 				(font
@@ -1203,7 +1217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e9ebb5a-a051-49b7-a653-3ff523f09c4e")
-		(property "Reference" "C54"
+		(property "Reference" "C42"
 			(at 156.21 77.4699 0)
 			(effects
 				(font
@@ -1294,7 +1308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a20cc3d8-5d73-4fde-b8ce-3ab7931e8e30")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR057"
 			(at 163.83 95.25 0)
 			(effects
 				(font
@@ -1372,7 +1386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff975667-85b6-42a9-9d4a-b058524a0d68")
-		(property "Reference" "C55"
+		(property "Reference" "C43"
 			(at 167.64 77.4699 0)
 			(effects
 				(font
